@@ -1,0 +1,975 @@
+{
+  "meta": {
+    "generated": "2026-10-25",
+    "scope": "Xiamen 12/26–12/28 2026, 2 adults, leisurely, less-touristy",
+    "photo_source": "Wikimedia Commons API (thumburl ~1920px bucket; not downloaded)"
+  },
+  "stops": [
+    {
+      "id": "X00",
+      "day": "D3 12/26(六)",
+      "type": "hotel",
+      "name_trad": "廈門大學沙坡尾海景亞朵見野酒店",
+      "name_simp": "厦门大学沙坡尾海景亚朵见野酒店",
+      "address_simp": "厦门市思明区沙坡尾58号",
+      "hours": "24小時；入住/退房時間未查到官方數字（亞朵一般 14:00 入住、12:00 退房，會員可延遲——未核實，請向前台 0592-5555899 確認）",
+      "closed": "無",
+      "hours_source_url": "https://hotels.ctrip.com/hotels/133575239.html",
+      "ticket": "—",
+      "booking": "已訂；2026 年開業、149 間房；攜程 4.8 分（1074 則評論）。免費停車場、充電車位、免費行李寄存、健身房、竹居圖書館、相招餐廳（閩南菜）",
+      "transport_from_prev": "自駕從泉州/晉江經沈海高速→廈門大橋/翔安隧道進島，再走環島幹道/演武路到沙坡尾，約 1.5–2 小時；導航輸入「沙坡尾58号」。酒店有免費停車場",
+      "metro": {
+        "line": "最近：1號線（目前沙坡尾沒有營運中的地鐵站）",
+        "color": "#E56849",
+        "station": "镇海路（駕車約 2.3 km／8 分鐘）",
+        "exit": "不建議以地鐵為主要交通；3號線南延段「沙坡尾站」仍在興建"
+      },
+      "signboard": "亞朵「見野 ORIGIN」系列品牌，原木色調；面向沙坡尾避風塢，旁邊就是世茂雙子塔（約 440 m）",
+      "street_sign": "沙坡尾 / 大学路 / 演武西路",
+      "wayfinding": "距沙坡尾避風塢約 110 m、藝術西區（沙坡尾60號）就在隔壁；廈大思明校區約 780 m、環島路約 870 m",
+      "must_order": [
+        {
+          "simp": "酒店早餐（闽南特色）",
+          "trad": "酒店早餐（閩南特色）",
+          "price": "含於房價（依訂房條件）"
+        }
+      ],
+      "insider_tip": "住客評論常提「海景無敵、隔音好」；請要求避風塢景觀的高樓層房。12/28 若要先去南普陀/廈大，請先把行李寄放在前台。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Xiamen_Shimao_Straits_Tower_at_dusk.jpg/1920px-Xiamen_Shimao_Straits_Tower_at_dusk.jpg",
+          "title": "File:Xiamen Shimao Straits Tower at dusk.jpg",
+          "claims": "世茂海峽大廈黃昏（酒店旁地標，非酒店本身；Commons 上找不到酒店本身的照片）"
+        }
+      ]
+    },
+    {
+      "id": "X01",
+      "day": "D3 12/26(六) 16:30–17:15",
+      "type": "sight",
+      "name_trad": "沙坡尾避風塢・沙坡尾藝術西區",
+      "name_simp": "沙坡尾避风坞 / 沙坡尾艺术西区",
+      "address_simp": "厦门市思明区沙坡尾60号（艺术西区）",
+      "hours": "避風塢全天開放；藝術西區 10:00–22:00（各店家營業時間不同）",
+      "closed": "無（以當日公告為準）",
+      "hours_source_url": "https://you.ctrip.com/sight/xiamen21/2065879.html",
+      "ticket": "免費",
+      "booking": "不需預約。週末有市集（UGC 說週末 10 點開市，未經官方核實）",
+      "transport_from_prev": "從酒店步行 1–3 分鐘",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "舊冷凍廠改建的藝術區，有彩虹牆；小漁島書店（大學路3號）是有名的轉角",
+      "street_sign": "沙坡尾 / 大学路 / 沙坡巷",
+      "wayfinding": "沿著避風塢的弧形堤岸走：一邊是漁船和舊漁民屋，對岸可以看到雙子塔。可上藝術西區三樓天台俯拍避風塢",
+      "must_order": [
+        {
+          "simp": "手冲咖啡（邮局咖啡 la poste cafe，大学路35号）",
+          "trad": "手沖咖啡（郵局咖啡，大學路35號）",
+          "price": "約 ¥30–40（估計）"
+        }
+      ],
+      "insider_tip": "週六傍晚人多，建議先繞避風塢內側老漁民屋巷弄（民族路／大學路之間）再出來。日落請留給演武大橋。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg/1920px-2015%E5%B9%B4%E7%9A%84%E6%B2%99%E5%9D%A1%E5%B0%BE%E9%81%BF%E9%A3%8E%E5%9D%9E.jpg",
+          "title": "File:2015年的沙坡尾避风坞.jpg",
+          "claims": "2015 年的沙坡尾避風塢（Commons 標題）"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Fishing_boats_in_Shapowei%2C_Xiamen.jpg/1920px-Fishing_boats_in_Shapowei%2C_Xiamen.jpg",
+          "title": "File:Fishing boats in Shapowei, Xiamen.jpg",
+          "claims": "沙坡尾漁船"
+        }
+      ]
+    },
+    {
+      "id": "X02",
+      "day": "D3 12/26(六) 17:00–18:00",
+      "type": "sight",
+      "name_trad": "演武大橋觀景平台",
+      "name_simp": "演武大桥观景平台",
+      "address_simp": "厦门市思明区演武大桥（世茂海峡大厦旁）",
+      "hours": "冬令 06:00–21:00（夏令 06:00–22:00）",
+      "closed": "無",
+      "hours_source_url": "https://baike.baidu.com/item/%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0/19839990",
+      "ticket": "免費",
+      "booking": "不需預約",
+      "transport_from_prev": "從沙坡尾步行 5–10 分鐘（往世茂雙子塔方向）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "貼近海面的低矮步行平台，背景是雙子塔、演武大橋和鼓浪嶼",
+      "street_sign": "演武路 / 演武西路",
+      "wayfinding": "有三個出入口：世茂海峽大廈旁、演武路、海洋新村附近。從沙坡尾走世茂大廈這個入口最近。平台只能步行，不可騎車",
+      "must_order": [],
+      "insider_tip": "12/26 日落約 17:26（依天文公式計算；請以手機天氣 App 為準）。17:00 前到場卡位，入夜後雙子塔亮燈也很好看。海風大，請帶外套。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E6%97%A5%E8%90%BD_-_Sunset_at_Yanwu_Bridge_-_2014.01_-_panoramio.jpg/1920px-%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E6%97%A5%E8%90%BD_-_Sunset_at_Yanwu_Bridge_-_2014.01_-_panoramio.jpg",
+          "title": "File:演武大桥日落 - Sunset at Yanwu Bridge - 2014.01 - panoramio.jpg",
+          "claims": "演武大橋日落（2014.01，Panoramio）"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Night_view_of_Xiamen_Yanwu_Bridge_20230826_01.jpg/1920px-Night_view_of_Xiamen_Yanwu_Bridge_20230826_01.jpg",
+          "title": "File:Night view of Xiamen Yanwu Bridge 20230826 01.jpg",
+          "claims": "演武大橋夜景 2023"
+        }
+      ]
+    },
+    {
+      "id": "X03",
+      "day": "D3 12/26(六) 18:30 晚餐",
+      "type": "food",
+      "name_trad": "打漁船・老廈門本地菜・薑母鴨（沙坡尾地標美食店）",
+      "name_simp": "打渔船·老厦门本地菜·姜母鸭(沙坡尾地标美食店)",
+      "address_simp": "厦门市思明区大学路18X号（大众点评只顯示「大学路18******」，門牌未完整核實）",
+      "hours": "未查到確切時間（大眾點評在晚間顯示「營業中」）",
+      "closed": "未核實",
+      "hours_source_url": "https://m.dianping.com/shop/1276267232",
+      "ticket": "人均約 ¥94（大眾點評）",
+      "booking": "大眾點評可訂位（330+ 人訂過）；週六晚上建議先訂或 18:00 前到",
+      "transport_from_prev": "從演武大橋步行約 10 分鐘回到大學路",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "「打渔船」字樣招牌（細節未核實）",
+      "street_sign": "大学路",
+      "wayfinding": "在沙坡尾大學路上，近避風塢",
+      "must_order": [
+        {
+          "simp": "姜母鸭",
+          "trad": "薑母鴨",
+          "price": "未核實"
+        },
+        {
+          "simp": "白灼东山水晶虾",
+          "trad": "白灼東山水晶蝦",
+          "price": "時價"
+        },
+        {
+          "simp": "招牌老厦门煎蟹",
+          "trad": "招牌老廈門煎蟹",
+          "price": "時價"
+        },
+        {
+          "simp": "海蛎捞饭",
+          "trad": "海蠣撈飯",
+          "price": "未核實"
+        }
+      ],
+      "insider_tip": "大眾點評「廈門大學福建菜熱門榜」第 4–5 名，本地人和遊客都會來，不算隱藏小店。若想吃得更家常：附近有「阿里元」家常閩南菜（UGC 說人均約 70，地址未核實）。",
+      "photos": []
+    },
+    {
+      "id": "X04",
+      "day": "D4 12/27(日) 07:30–09:00",
+      "type": "sight",
+      "name_trad": "第八市場（八市）・開禾路／營平市場",
+      "name_simp": "第八市场(八市)",
+      "address_simp": "厦门市思明区开禾路44号（开禾路与担水巷交叉口一带）",
+      "hours": "營平市場（內場）08:00–12:00、15:30–18:30；開禾路外市的攤位早上 6 點左右陸續營業，海鮮攤以上午為主",
+      "closed": "無",
+      "hours_source_url": "https://m.xm.bendibao.com/mip/79769.shtm",
+      "ticket": "免費",
+      "booking": "不需預約",
+      "transport_from_prev": "從酒店搭計程車約 10–15 分鐘（約 4–5 km），在開禾路口下車；或 1 號線「鎮海路站」步行約 8 分鐘（遊記說走 3 號口，官方未核實）",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "3號口（遊記資料，未經官方核實）"
+      },
+      "signboard": "騎樓下的露天馬路市場，地面濕；開禾路口有「第八市场」牌坊/指示",
+      "street_sign": "开禾路 / 担水巷 / 营平路 / 古营路 / 开元路",
+      "wayfinding": "外市沿開禾路一路到開元路；十字形的營平市場在裡面。阿杰五香在開禾路與擔水巷交口",
+      "must_order": [],
+      "insider_tip": "清晨到午前最好逛，攤位最齊、人最少。週日早上本地人也很多。請穿防滑鞋。",
+      "photos": []
+    },
+    {
+      "id": "X05",
+      "day": "D4 12/27(日) 早餐",
+      "type": "food",
+      "name_trad": "八市阿傑五香",
+      "name_simp": "八市阿杰五香",
+      "address_simp": "厦门市思明区开禾路111号（开禾路与担水巷交口处）",
+      "hours": "07:00–21:00（Trip.com）；另一來源寫 6:00–18:00",
+      "closed": "未見公休資料",
+      "hours_source_url": "https://tw.trip.com/restaurant/china/xiamen/detail/ba-shi-a-jie-11312796/",
+      "ticket": "約 ¥3–5／條",
+      "booking": "不需要，現場排隊",
+      "transport_from_prev": "在八市裡面步行",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "小檔口前擺著炸五香推車，常有人排隊",
+      "street_sign": "开禾路 / 担水巷",
+      "wayfinding": "開禾路和擔水巷的交口",
+      "must_order": [
+        {
+          "simp": "五香卷",
+          "trad": "五香卷",
+          "price": "約 ¥3–4／條"
+        }
+      ],
+      "insider_tip": "現炸的才好吃；只是點心，可以和友生沙茶麵一起吃。",
+      "photos": []
+    },
+    {
+      "id": "X06",
+      "day": "D4 12/27(日) 早餐",
+      "type": "food",
+      "name_trad": "友生風味小吃（營平農產品市場店）—沙茶麵",
+      "name_simp": "友生风味小吃(营平农产品市场店)",
+      "address_simp": "厦门市思明区开元路147号夏商营平农产品市场（另一來源寫开元路149号）",
+      "hours": "07:00–21:00（Trip.com）",
+      "closed": "未見公休資料",
+      "hours_source_url": "https://tw.trip.com/restaurant/china/xiamen/detail/yousheng-flavor-street-food-11309262/",
+      "ticket": "人均約 ¥20–28",
+      "booking": "不需要",
+      "transport_from_prev": "從阿杰五香步行約 3 分鐘到開元路側入口",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "在八市入口旁，小凳子、露天座位",
+      "street_sign": "开元路",
+      "wayfinding": "開禾路外市走到底接開元路，就在營平市場入口",
+      "must_order": [
+        {
+          "simp": "沙茶面（加肉丸、猪肝、鱿鱼）",
+          "trad": "沙茶麵（加肉丸、豬肝、魷魚）",
+          "price": "約 ¥20–30"
+        },
+        {
+          "simp": "猪脚面",
+          "trad": "豬腳麵",
+          "price": "約 ¥20"
+        }
+      ],
+      "insider_tip": "三聯生活週刊和本地遊記都推薦，大顆手打肉丸是特色；比中山路的店家更市井。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/97/20230131_Seafood_Shacha_Noodle.jpg",
+          "title": "File:20230131 Seafood Shacha Noodle.jpg",
+          "claims": "海鮮沙茶麵（示意，非本店）"
+        }
+      ]
+    },
+    {
+      "id": "X07",
+      "day": "D4 12/27(日) 選吃",
+      "type": "food",
+      "name_trad": "八市惠林土筍凍（開禾路店）",
+      "name_simp": "八市惠林土笋冻(开禾路店)",
+      "address_simp": "厦门市思明区开禾路1号",
+      "hours": "未核實",
+      "closed": "未核實",
+      "hours_source_url": "https://you.ctrip.com/food/xiamen21/5161595-dianping.html",
+      "ticket": "人均約 ¥16",
+      "booking": "不需要",
+      "transport_from_prev": "在八市開禾路口",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "未核實",
+      "street_sign": "开禾路",
+      "wayfinding": "開禾路口（門牌 1 號）",
+      "must_order": [
+        {
+          "simp": "土笋冻",
+          "trad": "土筍凍",
+          "price": "約 ¥10–15"
+        },
+        {
+          "simp": "白灼章鱼",
+          "trad": "白灼章魚",
+          "price": "未核實"
+        }
+      ],
+      "insider_tip": "資料少（攜程 15 則評論），請把它當成順路試吃。比較有名的備案是「天河西門土筍凍」（斗西路33號，中山公園西門旁；大眾點評 4.2、人均 ¥28），但不在這條路線上。土筍凍是沙蟲做的凍，蘸蒜蓉醋、芥末吃。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tusundong_Xiamen.jpg",
+          "title": "File:Tusundong Xiamen.jpg",
+          "claims": "廈門土筍凍（小圖 630px）"
+        }
+      ]
+    },
+    {
+      "id": "X08",
+      "day": "D4 12/27(日) 選項：早午餐海鮮",
+      "type": "food",
+      "name_trad": "八市阿強海鮮加工・大排檔（八市美食店）",
+      "name_simp": "八市阿强海鲜加工·大排档(八市美食店)",
+      "address_simp": "厦门市思明区开禾路80号（大众点评顯示「开禾路80******」）",
+      "hours": "未核實（大眾點評顯示午前「休息中」，海鮮加工店一般 10–11 點後才開）",
+      "closed": "未核實",
+      "hours_source_url": "http://m.dianping.com/shop/729253274",
+      "ticket": "人均約 ¥69（大眾點評 4.4）",
+      "booking": "不需要",
+      "transport_from_prev": "在八市開禾路上",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "開禾路外市整排都是「海鲜加工」招牌",
+      "street_sign": "开禾路",
+      "wayfinding": "開禾路口到開元路之間，有幾十家加工店",
+      "must_order": [
+        {
+          "simp": "蒜蓉粉丝蒸扇贝",
+          "trad": "蒜蓉粉絲蒸扇貝",
+          "price": "時價"
+        },
+        {
+          "simp": "白灼虾",
+          "trad": "白灼蝦",
+          "price": "時價"
+        },
+        {
+          "simp": "椒盐皮皮虾",
+          "trad": "椒鹽皮皮蝦",
+          "price": "時價"
+        },
+        {
+          "simp": "海蛎煎",
+          "trad": "海蠣煎",
+          "price": "未核實"
+        }
+      ],
+      "insider_tip": "有兩種吃法：(a) 在攤位自己挑海鮮，再拿去加工店（先講好加工費、按斤還是按隻計價）；(b) 直接在店裡點。遊記另外推薦「探味·私房菜海鮮加工（八市店）」（說是 28 年老店、上過廈門衛視；地址未查到）。容易有拉客和秤重糾紛，請先問清單價再下單。",
+      "photos": []
+    },
+    {
+      "id": "X09",
+      "day": "D4 12/27(日) 09:00–11:30",
+      "type": "sight",
+      "name_trad": "老城騎樓散步：開禾路→大同路→鎮邦路→升平路→海后路",
+      "name_simp": "开禾路 → 大同路 → 镇邦路 → 升平路 → 海后路（骑楼老街）",
+      "address_simp": "厦门市思明区大同路/镇邦路/海后路一带",
+      "hours": "街道全天開放；店家大多 9–10 點後才開",
+      "closed": "無",
+      "hours_source_url": "http://xm.fjsen.com/2026-02/10/content_32131487.htm",
+      "ticket": "免費",
+      "booking": "不需要",
+      "transport_from_prev": "從八市開元路口步行接大同路（約 5 分鐘），全程平路約 2–2.5 km",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "1920–30 年代的南洋騎樓「五腳基」，鎮邦路在 2026 年整修成一整排復古店招（傍晚約 18:00 亮燈）",
+      "street_sign": "大同路 / 镇邦路 / 横竹路 / 升平路 / 海后路 / 局口街 / 鹭江道",
+      "wayfinding": "大同路與中山路平行（1926–29 年建，1958 年前是最繁華的商業街）；可看大同戲院、捷克百貨、永康成百貨、瑞豐參行舊址；從鎮邦路接升平路、海后路，最後到鷺江道海邊。中山路主街只穿過、不逛",
+      "must_order": [],
+      "insider_tip": "這條路線就是 2024 年廈門申遺 CityWalk 專家帶的走法（大同路→鎮邦路→惠通巷→升平路→海后路），比中山路主街安靜很多。週日上午人最少。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%8E%A6%E9%97%A8%C2%B7%E5%A4%A7%E5%90%8C%E8%B7%AF_%2814008542249%29.jpg/1920px-%E5%8E%A6%E9%97%A8%C2%B7%E5%A4%A7%E5%90%8C%E8%B7%AF_%2814008542249%29.jpg",
+          "title": "File:厦门·大同路 (14008542249).jpg",
+          "claims": "廈門大同路（Flickr→Commons）"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/183538%E5%A4%A7%E5%90%8C%E6%88%8F%E9%99%A2%E6%97%A7%E5%9D%80.jpg/1920px-183538%E5%A4%A7%E5%90%8C%E6%88%8F%E9%99%A2%E6%97%A7%E5%9D%80.jpg",
+          "title": "File:183538大同戏院旧址.jpg",
+          "claims": "大同戲院舊址"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%E5%A4%A7%E5%90%8C%E8%B7%AF181618.jpg/1920px-%E5%A4%A7%E5%90%8C%E8%B7%AF181618.jpg",
+          "title": "File:大同路181618.jpg",
+          "claims": "大同路騎樓"
+        }
+      ]
+    },
+    {
+      "id": "X10",
+      "day": "D4 12/27(日) 午餐（散步途中）",
+      "type": "food",
+      "name_trad": "佳味再添小吃店（大同路老店）",
+      "name_simp": "佳味再添小吃店",
+      "address_simp": "厦门市思明区大同路49号（大同路头）",
+      "hours": "10:00–22:00（只有一個來源，未核實）",
+      "closed": "未核實",
+      "hours_source_url": "https://1dbr.nen2.com/",
+      "ticket": "人均約 ¥20",
+      "booking": "不需要",
+      "transport_from_prev": "在大同路靠鷺江道那一端（大同路頭）",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "店裡有玻璃櫃台、牆上貼店史",
+      "street_sign": "大同路",
+      "wayfinding": "大同路靠海后路／鷺江道的起點",
+      "must_order": [
+        {
+          "simp": "虾面",
+          "trad": "蝦麵",
+          "price": "約 ¥10–15"
+        },
+        {
+          "simp": "芋包",
+          "trad": "芋包",
+          "price": "約 ¥5"
+        },
+        {
+          "simp": "沙茶面",
+          "trad": "沙茶麵",
+          "price": "約 ¥20"
+        }
+      ],
+      "insider_tip": "這是 1947 年「吳再添」的原址，2004 年後改名佳味再添；吳家第三代現在在美湖路25號另開「吳再添小吃店」（07:00–21:30，不在路線上）。",
+      "photos": []
+    },
+    {
+      "id": "X11",
+      "day": "D4 12/27(日) 選吃",
+      "type": "food",
+      "name_trad": "蓮歡海蠣煎（局口橫巷）",
+      "name_simp": "莲欢海蛎煎(局口横巷)",
+      "address_simp": "厦门市思明区局口街局口横巷6号（近思明南路）",
+      "hours": "10:30–24:00（Trip.com）；百度百科寫 11:00–次日 01:00",
+      "closed": "未見公休資料",
+      "hours_source_url": "https://www.amap.com/place/B02500S0HE",
+      "ticket": "人均約 ¥20–29",
+      "booking": "不需要",
+      "transport_from_prev": "從大同路／中山路之間轉進局口街，步行約 5 分鐘",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "白色招牌寫「莲欢海蛎煎」；同一條巷子前面還有另一家海蠣煎，不要走錯",
+      "street_sign": "局口街 / 局口横巷 / 思明南路",
+      "wayfinding": "進局口橫巷後注意右手邊",
+      "must_order": [
+        {
+          "simp": "海蛎煎",
+          "trad": "海蠣煎",
+          "price": "約 ¥20–25"
+        },
+        {
+          "simp": "春卷",
+          "trad": "春捲",
+          "price": "未核實"
+        }
+      ],
+      "insider_tip": "1982 年開業，從推車做起；大眾點評「廈門春捲菜品榜」第 1。海蠣比台灣蚵仔煎多、粉漿少。10:30 一開門就去，人最少。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Oyster_omelette.jpg",
+          "title": "File:Oyster omelette.jpg",
+          "claims": "海蠣煎（示意，非本店）"
+        }
+      ]
+    },
+    {
+      "id": "X12",
+      "day": "D4 12/27(日) 選吃",
+      "type": "food",
+      "name_trad": "黃則和花生湯店（中山路總店）",
+      "name_simp": "黄则和花生汤店(中山路总店)",
+      "address_simp": "厦门市思明区中山路22-24号（肯德基对面）",
+      "hours": "07:30–22:00（Trip.com）；途牛的舊資料寫 08:00–12:00、14:00–18:00",
+      "closed": "未見公休資料",
+      "hours_source_url": "https://tw.trip.com/restaurant/china/xiamen/detail/ze-he-huang-peanut-soup-shop-354526/",
+      "ticket": "花生湯約 ¥5–8；人均約 ¥20",
+      "booking": "不需要",
+      "transport_from_prev": "在海后路／鷺江道這一端的中山路口，步行 2 分鐘",
+      "metro": {
+        "line": "1號線",
+        "color": "#E56849",
+        "station": "镇海路",
+        "exit": "—"
+      },
+      "signboard": "中華老字號招牌；中山路口、肯德基對面",
+      "street_sign": "中山路 / 鹭江道",
+      "wayfinding": "中山路靠海那一端的路口；要先到收銀台儲值店卡（押金約 ¥10），再拿卡到餐檯點餐",
+      "must_order": [
+        {
+          "simp": "花生汤",
+          "trad": "花生湯",
+          "price": "約 ¥5–6"
+        },
+        {
+          "simp": "鸡蛋花生汤",
+          "trad": "雞蛋花生湯",
+          "price": "約 ¥8"
+        },
+        {
+          "simp": "油条",
+          "trad": "油條",
+          "price": "約 ¥2–3"
+        }
+      ],
+      "insider_tip": "1945 年開業，花生湯製作技藝在 2024 年列為區級非遺。但店在中山路觀光動線上，在地人評價兩極；只在散步收尾時順路喝一碗即可。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Huang_Zehe_peanut_soup.jpg/1920px-Huang_Zehe_peanut_soup.jpg",
+          "title": "File:Huang Zehe peanut soup.jpg",
+          "claims": "黃則和花生湯"
+        }
+      ]
+    },
+    {
+      "id": "X13",
+      "day": "D4 12/27(日) 約 12:40 前往碼頭",
+      "type": "transport",
+      "name_trad": "東渡郵輪中心廈鼓碼頭 → 鼓浪嶼內厝澳碼頭（旅遊客運航線）",
+      "name_simp": "东渡客运码头（厦门国际邮轮中心厦鼓码头）→ 鼓浪屿内厝澳码头",
+      "address_simp": "厦门市湖里区东港北路2号 厦门国际邮轮中心（厦鼓码头）— 地址取自一般資料，未逐字核實",
+      "hours": "東渡→內厝澳每小時 :10 開船，08:10–17:10；內厝澳→東渡每小時 :40，07:40–17:40；航程約 20 分鐘",
+      "closed": "遇颱風／大霧停航",
+      "hours_source_url": "https://m.xmferry.com/wx/hb/yk/31704.htm",
+      "ticket": "普通船 ¥35／人（往返）；精品船 ¥80",
+      "booking": "一定要先在線上實名預訂：微信／支付寶小程式「嶼見廈門」或廈門輪渡官網；碼頭不賣遊客散票。官方媒體（央廣 2024）說可提前 10 天訂，部分 2026 文章說 15 天——建議 12/12 起每天查，一開放就訂。台胞證可以實名，但小程式註明「限境內使用」，可能需要大陸手機號或網路（未核實）。2026/1/1 起一個帳號最多 10 張未使用船票。往返票的回程不限船型和班次",
+      "transport_from_prev": "從鷺江道搭計程車到東渡郵輪中心約 10–15 分鐘（約 4 km）；建議 13:10 那班，開船前 30 分鐘到",
+      "metro": {
+        "line": "無直達地鐵（BRT／公車另查）",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "「厦门国际邮轮中心 厦鼓码头」",
+      "street_sign": "东港北路 / 湖滨西路",
+      "wayfinding": "跟著「厦鼓码头 / 鼓浪屿」指示走，刷證件／二維碼過閘",
+      "must_order": [],
+      "insider_tip": "在內厝澳上岸，可以完全避開三丘田／鋼琴碼頭→龍頭路的人潮。首次來大陸、而且從廈門口岸入境的台胞，可以領「首來台胞廈門服務包」：7 天內免費搭廈鼓遊客航線（仍建議先訂位）。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dongdu_International_Cruise_Terminal_%E2%80%93_Neicuoao_Wharf_on_Gulangyu_Island.jpg",
+          "title": "File:Dongdu International Cruise Terminal – Neicuoao Wharf on Gulangyu Island.jpg",
+          "claims": "東渡郵輪中心－內厝澳航線示意圖（小圖 700px）"
+        }
+      ]
+    },
+    {
+      "id": "X14",
+      "day": "D4 12/27(日) 13:30–16:40",
+      "type": "sight",
+      "name_trad": "鼓浪嶼西側安靜路線：內厝澳路→種德宮→工藝美院舊址→筆山路",
+      "name_simp": "鼓浪屿 内厝澳码头 → 内厝澳路 → 种德宫 → 笔山路",
+      "address_simp": "内厝澳码头：厦门市思明区鼓浪屿康泰路159号；种德宫：鼓浪屿内厝澳路373号",
+      "hours": "島嶼全天開放；種德宮等廟宇開放時間未核實",
+      "closed": "—",
+      "hours_source_url": "https://xiamen.manmankan.com/lvyou/11849/",
+      "ticket": "上島免費（日光岩、菽莊花園等核心景點要另外買票，本路線不進去）",
+      "booking": "只需要船票",
+      "transport_from_prev": "搭船約 20 分鐘，從內厝澳碼頭上岸後全程步行（有坡道、階梯）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "紅磚洋樓、老鐵門、三角梅；種德宮是閩南紅磚廟（明代始建，後來遷建）",
+      "street_sign": "康泰路 / 内厝澳路 / 鸡山路 / 笔山路 / 安海路",
+      "wayfinding": "建議路線（官方媒體推薦的「本島生活路線」前半段）：內厝澳碼頭→福州大學工藝美院鼓浪嶼舊址→康泰路→內厝澳路→種德宮→筆架山→筆山路別墅群（林屋、春草堂一帶）→回內厝澳碼頭。全程約 2–3 小時，不走龍頭路",
+      "must_order": [],
+      "insider_tip": "這一側是居民區，就算週日也明顯比東側安靜。16:40 從內厝澳搭回程（17:40 是末班）。不建議 12 月的週日改走華新路＋植物園：鼓浪嶼西側安靜，又剛好配合平地的舊城散步。若船票訂不到，備案是「華新路華僑新村老別墅（1957 年起建 31 棟）＋公園西路」，不用預約。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%A7%8D%E5%BE%B7%E5%AE%AB.jpg/1920px-%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%A7%8D%E5%BE%B7%E5%AE%AB.jpg",
+          "title": "File:鼓浪屿种德宫.jpg",
+          "claims": "鼓浪嶼種德宮"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%A7%8D%E5%BE%B7%E5%AE%AB_2024.jpg/1920px-%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%A7%8D%E5%BE%B7%E5%AE%AB_2024.jpg",
+          "title": "File:鼓浪屿种德宫 2024.jpg",
+          "claims": "鼓浪嶼種德宮 2024"
+        }
+      ]
+    },
+    {
+      "id": "X15",
+      "day": "D4 12/27(日) 選吃（只在改走三丘田時）",
+      "type": "food",
+      "name_trad": "葉氏麻糍（鼓浪嶼）",
+      "name_simp": "叶氏麻糍",
+      "address_simp": "厦门市思明区鼓浪屿龙头路145-147号（新华书店三岔路口）",
+      "hours": "10:00–19:00（攜程）",
+      "closed": "未見公休資料",
+      "hours_source_url": "https://gs.ctrip.com/html5/you/foods/fooddetail/21/319760.html",
+      "ticket": "人均約 ¥14",
+      "booking": "不需要",
+      "transport_from_prev": "在龍頭路，從筆山路下坡約 10 分鐘",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "小推車攤，是島上唯一經政府許可臨街擺攤的店；中華老字號（1932 年創立）",
+      "street_sign": "龙头路",
+      "wayfinding": "龍頭路往音樂廳方向的三岔路口",
+      "must_order": [
+        {
+          "simp": "麻糍（花生/芝麻）",
+          "trad": "麻糍（花生／芝麻）",
+          "price": "約 ¥2–3／個（舊資料寫 ¥1，已漲價，未核實）"
+        }
+      ],
+      "insider_tip": "在龍頭路這個熱門區。只有回程改從三丘田出島時才順路。",
+      "photos": []
+    },
+    {
+      "id": "X16",
+      "day": "D5 12/28(一) 07:30 早餐",
+      "type": "food",
+      "name_trad": "烏糖沙茶麵（民族路店）",
+      "name_simp": "乌糖沙茶面",
+      "address_simp": "厦门市思明区民族路76号（高德）／民族路78号（Trip.com）",
+      "hours": "05:30–14:30（Trip.com；也有資料寫 6:00–14:00），賣完就收",
+      "closed": "未見固定公休資料",
+      "hours_source_url": "https://www.amap.com/place/B0I1VU0Q9H",
+      "ticket": "人均約 ¥40+（看加料）",
+      "booking": "不需要；早上 10 點前到比較不用排",
+      "transport_from_prev": "從酒店步行約 5 分鐘（民族路在沙坡尾北側）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "騎樓下小板凳座位的老店；店名常被誤寫成「烏堂」",
+      "street_sign": "民族路",
+      "wayfinding": "沿民族路往北，在亞海麵線糊（177 號）的另一側；電話 0592-2041658",
+      "must_order": [
+        {
+          "simp": "沙茶面（加料：鱿鱼、虾、大肠、猪肝、海蛎）",
+          "trad": "沙茶麵（加料：魷魚、蝦、大腸、豬肝、海蠣）",
+          "price": "約 ¥30–50（自選加料，未核實）"
+        }
+      ],
+      "insider_tip": "在地人口中「最跩」的沙茶麵：只做半天、不開分店。週一早上人比週末少。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sili_Shacha_Noodle.jpg",
+          "title": "File:Sili Shacha Noodle.jpg",
+          "claims": "四里沙茶麵（示意，非烏糖）"
+        }
+      ]
+    },
+    {
+      "id": "X17",
+      "day": "D5 12/28(一) 替代早餐",
+      "type": "food",
+      "name_trad": "亞海麵線糊",
+      "name_simp": "亚海面线糊",
+      "address_simp": "厦门市思明区民族路177号",
+      "hours": "06:00–13:00（Trip.com）",
+      "closed": "未核實",
+      "hours_source_url": "https://uk.trip.com/restaurant/china/xiamen/detail/restaurant-345832/",
+      "ticket": "約 ¥10–20",
+      "booking": "不需要",
+      "transport_from_prev": "從酒店步行約 5–8 分鐘",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "街坊小店",
+      "street_sign": "民族路",
+      "wayfinding": "沙坡尾北側的民族路",
+      "must_order": [
+        {
+          "simp": "面线糊（加大肠、猪肝、醋肉）",
+          "trad": "麵線糊（加大腸、豬肝、醋肉）",
+          "price": "約 ¥10–18"
+        },
+        {
+          "simp": "油条",
+          "trad": "油條",
+          "price": "約 ¥2"
+        }
+      ],
+      "insider_tip": "大眾點評「廈門麵線糊菜品榜」第 8；曾被報導為《舌尖3》拍攝的麵線糊店（閩南網）。量不大，可以吃完再去烏糖。",
+      "photos": []
+    },
+    {
+      "id": "X18",
+      "day": "D5 12/28(一) 08:15–09:30",
+      "type": "sight",
+      "name_trad": "南普陀寺",
+      "name_simp": "南普陀寺",
+      "address_simp": "厦门市思明区思明南路515号",
+      "hours": "寺院 08:00–18:00；後山 08:00–16:00",
+      "closed": "無",
+      "hours_source_url": "https://news.qq.com/rain/a/20260922A04Z6O00",
+      "ticket": "免費",
+      "booking": "必須預約：微信小程式「南普陀寺预约服务平台」是唯一官方渠道，免費，最多可提前 4 天（12/24 起可約 12/28），每小時一個時段。入寺要帶本人證件原件核驗，不再接受只出示二維碼（台胞證應屬「其他有效身份證件」）。60 歲以上可直接入寺",
+      "transport_from_prev": "從沙坡尾搭計程車約 5 分鐘，或步行約 20 分鐘（沿思明南路）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "紅牆、黃瓦、重簷寺廟；背後是五老峰",
+      "street_sign": "思明南路",
+      "wayfinding": "東山門進、西山門出。出西山門往南走，就接到廈大／演武路方向",
+      "must_order": [
+        {
+          "simp": "南普陀素饼",
+          "trad": "南普陀素餅（伴手禮）",
+          "price": "約 ¥20–40／盒（未核實）"
+        }
+      ],
+      "insider_tip": "週一 8 點一開門就到，人最少。若想從高處看廈大，可以爬後山（16:00 關），但時間要抓緊。",
+      "photos": [
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Nanputuo_Temple%2C_Xiamen.jpg/1920px-Nanputuo_Temple%2C_Xiamen.jpg",
+          "title": "File:Nanputuo Temple, Xiamen.jpg",
+          "claims": "南普陀寺"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA.jpg/1920px-%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA.jpg",
+          "title": "File:南普陀寺.jpg",
+          "claims": "南普陀寺"
+        }
+      ]
+    },
+    {
+      "id": "X19",
+      "day": "D5 12/28(一) 09:30–10:20",
+      "type": "sight",
+      "name_trad": "頂澳仔貓街",
+      "name_simp": "顶澳仔猫街",
+      "address_simp": "厦门市思明区顶澳仔路（近思明南路、厦门理工学院思明校区旁）",
+      "hours": "街道全天開放；店家約 10:00 後開門",
+      "closed": "—",
+      "hours_source_url": "https://m.tuniu.com/g1817574/guide-0-0/",
+      "ticket": "免費（貓咪博物館另外收費）",
+      "booking": "不需要",
+      "transport_from_prev": "從南普陀步行約 10 分鐘（往思明南路北邊）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "約 200 m 的小街，牆上有貓咪壁畫、貓爪路牌，中間有一座小街心公園",
+      "street_sign": "顶澳仔路 / 思明南路",
+      "wayfinding": "街心公園旁那棟 6 樓建築的一樓就是貓咪博物館",
+      "must_order": [
+        {
+          "simp": "四果汤（猫街茶果）",
+          "trad": "四果湯（貓街茶果）",
+          "price": "約 ¥10–15（未核實）"
+        }
+      ],
+      "insider_tip": "其實是學生街，可能「一隻貓都沒有」，停留 20–30 分鐘就好。週一早上很安靜，若時間不夠可以跳過。",
+      "photos": []
+    },
+    {
+      "id": "X20",
+      "day": "D5 12/28(一) 10:30–11:45",
+      "type": "sight",
+      "name_trad": "廈門大學（思明校區）",
+      "name_simp": "厦门大学(思明校区)",
+      "address_simp": "厦门市思明区思明南路422号；访客入口：厦大访客中心（新南门，演武路地下停车场旁）",
+      "hours": "2026 年 1 月 20 日起的新制：工作日分三個入校時段 10:30–11:30（800 人）、13:00–14:00（800 人）、16:30–17:30（400 人）；週末／寒暑假 08:30–12:00、13:00–16:00、16:30–17:30",
+      "closed": "遇調課、重大活動或天氣因素會暫停開放",
+      "hours_source_url": "https://news.qq.com/rain/a/20260117A02YX100",
+      "ticket": "免費",
+      "booking": "「預約＋搖號」制：唯一渠道是微信公眾號「厦门大学访客预约系统」或小程式「参观厦大」。12/25 00:00 開放登記 12/28 的時段（提前 3 個自然日）；前一天截止與開獎時間在 2026 年改過兩次（1 月版：16:00 截止、20:00 公布；5 月版：15:00 截止、16:00 公布），以系統為準。不保證抽得到。主預約人限成年人，最多帶 6 名同行者",
+      "transport_from_prev": "從頂澳仔貓街搭計程車約 5 分鐘，或步行約 20 分鐘，到演武路的訪客中心（新南門）",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "「厦门大学访客中心」，在演武路地下停車場",
+      "street_sign": "演武路 / 思明南路",
+      "wayfinding": "只能走訪客中心的專用通道。持台胞證的人無法用閘機自動核驗，要到訪客中心工作台人工核驗，請 10:30 準時到並預留排隊時間。參觀範圍：建南大會堂、芙蓉湖、芙蓉隧道（禁止長時間停留拍照）",
+      "must_order": [],
+      "insider_tip": "12/28（週一）是學期中（廈大寒假通常 1 月中才開始），所以適用工作日的少量名額；選 10:30–11:30 這個時段，出校後還來得及回酒店退房。沒抽中的備案：沿演武路、白城沙灘看校園外圍，或把時間留給大學路喝咖啡。",
+      "photos": [
+        {
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Jiannan_Auditorium_of_XMU.JPG",
+          "title": "File:Jiannan Auditorium of XMU.JPG",
+          "claims": "廈大建南大會堂（1642px）"
+        },
+        {
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Furong_Tunnel_07143-Xiamen_%2848814117492%29.jpg/1920px-Furong_Tunnel_07143-Xiamen_%2848814117492%29.jpg",
+          "title": "File:Furong Tunnel 07143-Xiamen (48814117492).jpg",
+          "claims": "芙蓉隧道"
+        }
+      ]
+    },
+    {
+      "id": "X21",
+      "day": "D5 12/28(一) 12:00 咖啡／點心",
+      "type": "food",
+      "name_trad": "大學路咖啡＆小吃（郵局咖啡／巷口麻糍）",
+      "name_simp": "邮局咖啡 la poste cafe（大学路35号）／巷口麻糍（大学路11号与15号巷口）",
+      "address_simp": "厦门市思明区大学路35号；大学路11号与15号巷口中间（厦港酒家旁）",
+      "hours": "郵局咖啡 9:00–20:00（舊資料）；巷口麻糍是推車，時間未核實",
+      "closed": "未核實",
+      "hours_source_url": "https://www.dawusu.com/zatan/3719.html",
+      "ticket": "咖啡約 ¥30–40；麻糍幾元",
+      "booking": "不需要",
+      "transport_from_prev": "從廈大訪客中心步行約 10 分鐘回沙坡尾",
+      "metro": {
+        "line": "—",
+        "color": "",
+        "station": "—",
+        "exit": "—"
+      },
+      "signboard": "郵局咖啡用郵筒、郵戳當裝飾；麻糍是手寫招牌的推車",
+      "street_sign": "大学路",
+      "wayfinding": "大學路靠避風塢的那一段",
+      "must_order": [
+        {
+          "simp": "手冲/拿铁",
+          "trad": "手沖／拿鐵",
+          "price": "約 ¥30–40"
+        },
+        {
+          "simp": "麻糍",
+          "trad": "麻糍",
+          "price": "約 ¥2–5"
+        }
+      ],
+      "insider_tip": "兩家的現況都未核實（資料多是 2019–2022 年）。花生湯在 D4 黃則和喝過了，這裡不重複。",
+      "photos": []
+    },
+    {
+      "id": "X22",
+      "day": "D5 12/28(一) 約 13:30 出發",
+      "type": "transport",
+      "name_trad": "⚠️ 廈門翔安國際機場（高崎機場預計 12/24 關閉）",
+      "name_simp": "厦门翔安国际机场",
+      "address_simp": "厦门市翔安区大嶝街道",
+      "hours": "—",
+      "closed": "—",
+      "hours_source_url": "https://www.chinanews.com.cn/gsztc/2026/01-06/10546901.shtml",
+      "ticket": "計程車估計約 ¥120–160（約 50–55 km，未核實）",
+      "booking": "—",
+      "transport_from_prev": "從沙坡尾搭計程車／滴滴，經翔安隧道或翔安大橋，約 55–70 分鐘（估計，未核實）。地鐵 3 號線機場段計畫 2026 年 12 月和新機場同步開通，從廈門火車站到機場約 1 小時，但沙坡尾附近沒有可接駁的地鐵站",
+      "metro": {
+        "line": "3號線（機場段計畫 2026/12 開通，未核實）",
+        "color": "#00BFD3",
+        "station": "翔安机场",
+        "exit": "—"
+      },
+      "signboard": "—",
+      "street_sign": "—",
+      "wayfinding": "—",
+      "must_order": [],
+      "insider_tip": "非常重要：官方和上市公司公告都說翔安機場 2026 年底啟用、高崎同步關閉；民航華東局的計畫和維基百科都寫 12/24 晚轉場、12/25 啟用（截至 2026/10 仍是「預計」）。12/28 往台北的航班很可能從翔安起飛，不是 XMN 高崎。請負責航班的人核對機票上的機場，並保留 2.5 小時以上（新機場剛啟用的第 4 天，流程可能不順）。",
+      "photos": []
+    }
+  ],
+  "metro_lines": [
+    {
+      "line": "1號線",
+      "color_hex": "#E56849",
+      "color_name": "橙紅",
+      "termini": "岩内—镇海路",
+      "status": "營運中",
+      "key_stations_for_trip": "镇海路（八市、中山路、老城區最近的站；沙坡尾約 2.3 km）",
+      "source": "zh.wikipedia Module:Adjacent stations/厦门轨道交通（色碼）；en.wikipedia 用的是 #FF7300"
+    },
+    {
+      "line": "2號線",
+      "color_hex": "#4DAA50",
+      "color_name": "綠",
+      "termini": "五缘湾—天竺山",
+      "status": "營運中",
+      "key_stations_for_trip": "本行程用不到",
+      "source": "同上（en wiki：#008900）"
+    },
+    {
+      "line": "3號線",
+      "color_hex": "#00BFD3",
+      "color_name": "青藍",
+      "termini": "厦门火车站—蔡厝（機場段 蔡厝—翔安机场 計畫 2026/12 開通；南延段 厦门火车站—沙坡尾 興建中）",
+      "status": "營運中＋延伸段興建中",
+      "key_stations_for_trip": "翔安机场（計畫中）",
+      "source": "同上；zh.wikipedia 厦门地铁「建设中线路」"
+    },
+    {
+      "line": "4號線",
+      "color_hex": "#DA291C",
+      "color_name": "紅",
+      "termini": "集美软件园北—前浯（前浯—翔安机场 計畫 2026/12）",
+      "status": "2026/9/16 起試乘（維基 2026/10 版把它列入已開通）",
+      "key_stations_for_trip": "島外線，本行程用不到",
+      "source": "同上；新華網 2026-09-02"
+    },
+    {
+      "line": "6號線",
+      "color_hex": "#93328E",
+      "color_name": "紫（官方叫「繽紛紫」）",
+      "termini": "角江路（漳州角美）—华侨大学",
+      "status": "2026/9/16 起試乘",
+      "key_stations_for_trip": "本行程用不到",
+      "source": "同上；厦门网 2026-09-02"
+    }
+  ],
+  "notes": {
+    "critical_flags": [
+      "機場轉場：翔安國際機場預計 2026/12/24 晚轉場、12/25 啟用，高崎（XMN）同步關閉 → 12/28 的回程很可能從翔安出發；從沙坡尾搭車約 1 小時（估計）。請和負責航班的 agent 核對。",
+      "廈大 12/28（週一）只能預約工作日時段，而且要搖號：12/25 00:00 開放登記，不保證抽中；持台胞證要人工核驗。",
+      "南普陀需要預約（最多提前 4 天，即 12/24 起）；鼓浪嶼船票要盡早在「嶼見廈門」實名訂（可提前約 10–15 天）。三個預約都要用台胞證；有些小程式可能需要大陸手機號（未核實）。"
+    ],
+    "events_dec26_28": "沒有查到 12/26–28 的大型活動或封閉公告。12/26–27 是週末，中山路、鼓浪嶼東側和沙坡尾傍晚人會比較多；元旦跨年人潮從 12/31 開始（2025 年有 300 多場跨年活動）。廈門馬拉松通常在 1 月初，不受影響。鎮邦路的復古店招約 18:00 亮燈（2026 年 2 月的報導）。",
+    "weather_late_dec": "12 月氣候平均：月均溫約 15°C；下旬最高約 18°C、最低約 10–11°C；降水約 40–47 mm，大多晴或多雲（climate-data.org、廈門氣象 2025-12 報導）。海邊風大、早晚涼，建議洋蔥式穿搭＋防風外套。日出約 06:49、日落約 17:26（天文公式計算）。",
+    "pace_check": {
+      "D3": "16:00 入住 → 16:30 避風塢／藝術西區 → 17:00 演武大橋看日落 → 18:30 打漁船晚餐 → 晚上自由（約 2 小時）",
+      "D4": "07:30 八市早餐 → 09:00–11:30 騎樓散步（佳味再添／蓮歡／黃則和挑一兩家吃）→ 12:30 搭計程車去東渡 → 13:10 船 → 13:30–16:40 鼓浪嶼西側 → 17:00 回酒店 → 晚上自由。可選：宵夜去思北佘阿姨花生湯（思明北路62號，20:00–03:00，有花生湯、韭菜盒；UGC 資料未核實）",
+      "D5": "07:30 烏糖（或亞海）早餐 → 08:15 南普陀 → 09:30 貓街 → 10:30 廈大 → 12:00 大學路咖啡 → 13:30 退房、搭車去翔安機場"
+    },
+    "food_coverage": {
+      "沙茶麵": "烏糖（D5）、友生（D4）",
+      "花生湯": "黃則和（D4）",
+      "土筍凍": "八市惠林（備案：天河西門）",
+      "海蠣煎": "蓮歡",
+      "燒肉粽": "沒有排進行程。中山路353號的「1980燒肉粽」（11:00–22:00）是觀光店；老字號「好清香」（大元路32號，舊稱賴厝埕，在八市附近）的現況未核實",
+      "韭菜盒": "沒有找到可信、白天在路線上的店；佘阿姨（夜間）有賣，未核實",
+      "麵線糊": "亞海（D5）",
+      "葉氏麻糍": "鼓浪嶼龍頭路（可選）；沙坡尾的巷口麻糍可替代",
+      "八市海鮮加工": "阿強（大眾點評 4.4）／探味（地址未查到）"
+    },
+    "taiwan_compatriot": "首次來大陸、而且從廈門口岸入境的台胞，可以領「首來台胞廈門服務包」（2026/4/13 起）：7 天內免費搭公車、地鐵、BRT 和廈鼓遊客航線，還能免費進 15 個景區或項目。若不是第一次來就不適用。",
+    "payments": "地鐵可以用支付寶或微信乘車碼；八市部分小攤只收現金或掃碼，建議帶少量人民幣。",
+    "unverified_list": [
+      "打漁船的完整門牌和營業時間",
+      "八市惠林、阿強的營業時間",
+      "佳味再添的營業時間（只有一個來源）",
+      "亞朵的入住／退房時間",
+      "翔安機場的確切啟用日、IATA 代碼、計程車時間與車資",
+      "東渡郵輪中心的完整地址",
+      "鼓浪嶼船票的放票天數（10 天或 15 天）",
+      "巷口麻糍、郵局咖啡的現況"
+    ]
+  }
+}

@@ -1,0 +1,865 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>廈門・泉州 極致奢享深度遊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;800&family=Noto+Serif+TC:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0f2a44;--brick:#b5532f;--gold:#b08d3c;--ink:#1f2937;--paper:#fbf8f3}
+*{box-sizing:border-box}
+body{font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--paper);margin:0;line-height:1.6}
+h1,h2,h3,h4{font-family:"Noto Serif TC","PMingLiU",serif;color:var(--navy);margin:.4em 0}
+h2{font-size:1.6rem;border-bottom:3px solid var(--brick);padding-bottom:.25rem}
+h2 small{font-family:Georgia,serif;font-size:.85rem;color:var(--gold);letter-spacing:.08em;margin-left:.5rem}
+a{color:#1f6fb2}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.sec,.day{margin:28px 0}
+.hero{position:relative;color:#fff;min-height:380px;display:flex;align-items:flex-end;background:#0f2a44 center/cover no-repeat}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,42,68,.15),rgba(15,42,68,.85))}
+.hero .in{position:relative;padding:32px 16px;max-width:1080px;margin:0 auto;width:100%}
+.hero h1{color:#fff;font-size:2.4rem;margin:0}
+.hero p{margin:.3rem 0;opacity:.95}
+.kick{letter-spacing:.3em;font-size:.8rem;color:#f3d9a4}
+.box{background:#fff;border:1px solid #eadfcd;border-radius:14px;padding:14px 16px;margin:10px 0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:.92rem;background:#fff}
+th{background:var(--navy);color:#fff;text-align:left;padding:7px 8px;font-weight:600}
+td{padding:7px 8px;border-bottom:1px solid #eee;vertical-align:top}
+.zebra tbody tr:nth-child(even) td,.order tbody tr:nth-child(even) td{background:#f6f1e8}
+.pill{display:inline-block;color:#fff;border-radius:999px;padding:1px 10px;font-size:.8rem;font-weight:700;white-space:nowrap}
+.stcode{background:#eef2f7;border-radius:6px;padding:1px 6px;font-size:.82rem}
+.muted{color:#6b7280;font-size:.88rem}
+.simp{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif}
+.dayhead{display:flex;gap:16px;align-items:flex-start;background:var(--navy);color:#fff;border-radius:16px;padding:16px 18px}
+.dayhead h3{color:#fff;margin:.1rem 0;font-size:1.35rem}
+.dnum{font-family:Georgia,serif;font-size:1.6rem;font-weight:700;color:#f3d9a4;border:2px solid #f3d9a4;border-radius:12px;padding:4px 10px;white-space:nowrap}
+.ddate{margin:0;color:#f3d9a4;font-size:.9rem}
+.free{margin:.2rem 0 0;font-size:.9rem;opacity:.9}
+.card{background:#fff;border:1px solid #eadfcd;border-left:6px solid var(--brick);border-radius:14px;padding:14px 16px;margin:14px 0}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.ch h4{margin:0;font-size:1.15rem;flex:1 1 260px}
+.time{font-family:Georgia,serif;font-weight:700;color:var(--brick);min-width:68px}
+.badge{color:#fff;font-size:.75rem;border-radius:6px;padding:1px 8px}
+.btn{display:inline-block;border-radius:999px;padding:4px 12px;font-size:.85rem;text-decoration:none;font-weight:600}
+.amap{background:#e8f1fb;color:#1f6fb2;border:1px solid #bcd5ef}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:4px 16px;margin:10px 0;font-size:.9rem}
+.info dt{font-weight:700;color:var(--navy);font-size:.78rem}
+.info dd{margin:0}
+.src{font-size:.75rem}
+.phs{display:grid;gap:8px;margin:10px 0}
+.phs.n2{grid-template-columns:1fr 1fr}
+.ph{margin:0}
+.ratio{position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;border-radius:10px;background:#eee}
+.ratio img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+figcaption{font-size:.78rem;color:#6b7280;margin-top:3px}
+.nophoto{font-size:.82rem;color:#8a6d1f;background:#fbf3df;border-radius:8px;padding:6px 10px}
+.order th{background:var(--brick)}
+.five{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.el{display:flex;gap:8px;background:#f8f6f1;border-radius:10px;padding:8px 10px;font-size:.88rem}
+.el.wide{grid-column:1/-1}
+.el h5{margin:0 0 2px;font-size:.8rem;color:var(--navy)}
+.el p{margin:.15rem 0}
+.ic{font-size:1.2rem}
+.roadsign{display:inline-flex;flex-direction:column;align-items:center;background:#1450a3;color:#fff;border:2px solid #fff;outline:2px solid #1450a3;border-radius:4px;padding:2px 10px;margin:3px 6px 3px 0;line-height:1.15;font-family:"Microsoft YaHei","Noto Sans SC",sans-serif}
+.roadsign b{font-size:1rem;letter-spacing:.1em}
+.roadsign i{font-style:normal;font-size:.6rem;letter-spacing:.06em}
+.signboard{display:inline-block;background:#7a1f12;color:#ffd98a;font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:.12em;padding:3px 12px;border-radius:4px;border:2px solid #c9a24a;margin:2px 0}
+.signboard.sm{font-size:.85rem;padding:1px 8px}
+.tip{background:#fff6ea;border-radius:10px;padding:8px 10px;margin:8px 0 0;font-size:.9rem}
+.note{font-size:.85rem;color:var(--brick);margin:.3rem 0}
+.alerts li{margin:.45rem 0}
+.srcs{font-size:.78rem;columns:2}
+footer{margin:40px 0 20px;text-align:center;color:#6b7280;font-size:.8rem}
+@media(max-width:640px){.five{grid-template-columns:1fr}.phs.n2{grid-template-columns:1fr}.hero h1{font-size:1.8rem}.srcs{columns:1}}
+
+@page{size:A4 portrait;margin:12mm 10mm}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{background:#fff;font-size:10.5pt}
+.page-break{break-before:page}
+.no-break{break-inside:avoid}
+.hero{min-height:200mm;border-radius:0}
+.hero h1{font-size:30pt}
+.ratio{aspect-ratio:2/1}
+.phs{grid-template-columns:1fr 1fr;margin:6px 0}
+.phs.n1 .ph{max-width:50%}
+.card{padding:8px 11px;margin:7px 0;font-size:9.5pt}
+.five{gap:5px}.el{padding:5px 8px;font-size:8.8pt}
+.info{font-size:8.8pt;margin:6px 0}
+table{font-size:8.8pt}
+#overview{break-before:page}
+.srcs{columns:2}
+</style></head><body>
+<header class="hero" style="background-image:url('images/yanwu_sunset.jpg')"><div class="in">
+ <p class="kick">XIAMEN · QUANZHOU · 2026.12.24 — 12.28</p>
+ <h1>廈門・泉州 極致奢享深度遊</h1>
+ <p>5 天 4 夜｜2 位成人（情侶）｜悠閒慢遊｜避開觀光人潮的在地巷弄與老店</p>
+ <p>泉州濱江皇冠假日 ×2 晚 → 廈門沙坡尾海景亞朵見野 ×2 晚</p>
+</div></header><main class="wrap"><section class="sec"><h2>目錄 <small>Contents</small></h2><ol><li>行程總覽、出發前必看</li><li>交通路網與招牌對照</li><li>Day 1｜12/24（四）｜抵達・泉州城南：媽祖廟、古城門與平安夜小院晚餐</li><li>Day 2｜12/25（五）｜古城背巷：開元寺清晨、小巷東西塔、承天寺與鹽燒薑母鴨</li><li>Day 3｜12/26（六）｜僑鄉移師日：五店市、梧林番仔樓，傍晚沙坡尾與演武大橋日落</li><li>Day 4｜12/27（日）｜老廈門：八市早市、南洋騎樓 CityWalk、鼓浪嶼安靜西側</li><li>Day 5｜12/28（一）｜慢早晨：沙茶麵、南普陀、廈大校園，傍晚飛回松山</li><li>預約清單、美食圖鑑、行前須知</li></ol><p class="muted">線上互動版：https://roychihcheng.github.io/xiamen-quanzhou-travel-guide/</p></section>
+<section id="overview" class="sec" data-day="0">
+  <h2>行程總覽 <small>Itinerary at a Glance</small></h2>
+  <div class="grid2">
+   <div class="box"><h4>✈ 航班（訂票時再確認）</h4>
+    <p><b>去程</b> 12/24（四）華信 AE991／華航 CI991　桃園 T2 08:40 → 廈門高崎 T3 10:30</p>
+    <p><b>回程</b> 12/28（一）廈航 MF881　廈門（預計翔安新機場）17:10 → 台北松山 18:45</p>
+    <p class="muted">週四松山沒有上午班機，所以去程走桃園、回程回松山；可訂多段票或兩張單程。</p></div>
+   <div class="box"><h4>🏨 住宿</h4>
+    <p><b>12/24–12/25（2 晚）</b> 泉州濱江皇冠假日酒店 Crowne Plaza Quanzhou Riverview<br><span class="simp">泉州市鲤城区江滨南路2233号</span>｜入住 15:00／退房 12:00｜+86 595-3601-8888</p>
+    <p><b>12/26–12/27（2 晚）</b> 廈門大學沙坡尾海景亞朵見野酒店<br><span class="simp">厦门市思明区沙坡尾58号</span>｜2026 新開幕、面避風塢｜0592-5555899</p></div>
+  </div>
+  <table class="zebra"><thead><tr><th>日期</th><th>城市</th><th>主題</th></tr></thead><tbody><tr><td><b>D1</b> 12/24（四）</td><td>泉州</td><td>抵達・泉州城南：媽祖廟、古城門與平安夜小院晚餐</td></tr><tr><td><b>D2</b> 12/25（五）</td><td>泉州</td><td>古城背巷：開元寺清晨、小巷東西塔、承天寺與鹽燒薑母鴨</td></tr><tr><td><b>D3</b> 12/26（六）</td><td>晉江 → 廈門</td><td>僑鄉移師日：五店市、梧林番仔樓，傍晚沙坡尾與演武大橋日落</td></tr><tr><td><b>D4</b> 12/27（日）</td><td>廈門</td><td>老廈門：八市早市、南洋騎樓 CityWalk、鼓浪嶼安靜西側</td></tr><tr><td><b>D5</b> 12/28（一）</td><td>廈門 → 台北</td><td>慢早晨：沙茶麵、南普陀、廈大校園，傍晚飛回松山</td></tr></tbody></table>
+  <p class="muted">動線設計：先泉州（12/24–25 為大陸平日，古城人最少）→ 12/26 週六包車經晉江僑鄉南下 → 廈門過週末 → 12/28 從廈門直接回台，全程單向不折返。旅伴：2 位成人（情侶），節奏以悠閒為主，每日留白 1–2 小時以上。</p>
+</section>
+<section id="alerts" class="sec" data-day="0">
+  <h2>⚠️ 出發前必看 <small>Critical Alerts</small></h2>
+  <ol class="alerts">
+   <li><b>廈門機場搬家：</b>官方公告翔安國際機場「2026 年底」啟用、高崎同步關閉；民航華東局計畫與維基百科寫 12/24 夜間轉場、12/25 起啟用（截至 2026/10/25 仍為「預計」）。→ 去程 12/24 應仍降落高崎 T3；<b>回程 12/28 幾乎確定從翔安機場出發</b>，沙坡尾搭車約 55–70 分鐘、¥120–160（估算）。12 月中請再確認航空公司通知。</li>
+   <li><b>泉州古城交通管制（2026/10/08–2027/04/07）：</b>西街東段、中山中路／中山南路多段 08:00–23:00 禁行機動車。叫車目的地請填禁行區外：「开元寺西门」「涂门街」「德济门遗址／天后路」。古城內可搭「小白」電瓶觀光車 ¥2／人（6:30–22:00）。</li>
+   <li><b>廈門大學採「預約＋搖號」：</b>12/25 00:00 開放登記 12/28 時段，不保證抽中；台胞證須到新南門訪客中心人工核驗。沒抽中就改走演武路、白城沙灘外圍。</li>
+   <li><b>鼓浪嶼船票只能線上實名買：</b>「屿见厦门」小程序，提前 10–15 天放票（來源說法不一），請 12/12 起每天查。小程序可能需要大陸手機號（未核實）。訂不到的備案：華新路華僑新村老別墅散步。</li>
+   <li><b>南普陀寺需預約：</b>「南普陀寺预约服务平台」小程序，最多提前 4 天（12/24 起可約 12/28），入寺要出示台胞證原件。</li>
+   <li><b>台灣 12/25（五）行憲紀念日連假：</b>機位與兩岸航班需求高，請盡早訂票。</li>
+   <li><b>資料可信度：</b>本手冊於 2026/10/25 聯網查核。標示「未核實」者為單一來源或推估，出發前一週請用大眾點評／高德地圖再確認營業狀態。</li>
+  </ol>
+</section>
+<section id="transit" class="sec page-break" data-day="0">
+  <h2>🚇 交通路網與招牌對照 <small>Transit &amp; Signboard Guide</small></h2>
+  <h4>① 廈門地鐵路線代表色速查</h4>
+  <table class="zebra"><thead><tr><th>路線</th><th>代表色</th><th>起訖（簡體）</th><th>狀態</th><th>本行程用途</th></tr></thead><tbody><tr><td><span class="pill" style="background:#E56849">1號線</span></td><td>橙紅 <code>#E56849</code></td><td class="simp">岩内—镇海路</td><td>營運中</td><td>镇海路（八市、中山路、老城區最近的站；沙坡尾約 2.3 km）</td></tr><tr><td><span class="pill" style="background:#4DAA50">2號線</span></td><td>綠 <code>#4DAA50</code></td><td class="simp">五缘湾—天竺山</td><td>營運中</td><td>本行程用不到</td></tr><tr><td><span class="pill" style="background:#00BFD3">3號線</span></td><td>青藍 <code>#00BFD3</code></td><td class="simp">厦门火车站—蔡厝（機場段 蔡厝—翔安机场 計畫 2026/12 開通；南延段 厦门火车站—沙坡尾 興建中）</td><td>營運中＋延伸段興建中</td><td>翔安机场（計畫中）</td></tr><tr><td><span class="pill" style="background:#DA291C">4號線</span></td><td>紅 <code>#DA291C</code></td><td class="simp">集美软件园北—前浯（前浯—翔安机场 計畫 2026/12）</td><td>2026/9/16 起試乘（維基 2026/10 版把它列入已開通）</td><td>島外線，本行程用不到</td></tr><tr><td><span class="pill" style="background:#93328E">6號線</span></td><td>紫（官方叫「繽紛紫」） <code>#93328E</code></td><td class="simp">角江路（漳州角美）—华侨大学</td><td>2026/9/16 起試乘</td><td>本行程用不到</td></tr></tbody></table>
+  <p class="muted">色碼取自維基百科廈門軌道交通模板。沙坡尾附近目前沒有營運中的地鐵站（3 號線南延段施工中），本行程廈門段以計程車／滴滴為主，只有八市可搭 1 號線到「镇海路」。</p>
+  <h4>② 城際與泉州交通</h4>
+  <table class="zebra"><tbody>
+   <tr><td><span class="pill" style="background:#1f6fb2">動車 D</span></td><td>厦门北 → <b>泉州</b>（不是泉州东／泉州南），26–33 分鐘，約 82 班／日。12306 以台胞證購票，刷證進站。</td></tr>
+   <tr><td><span class="pill" style="background:#6b7280">泉州無地鐵</span></td><td>古城內以步行、滴滴、「小白」電瓶觀光車（¥2）為主；注意禁行路段的下車點。</td></tr>
+   <tr><td><span class="pill" style="background:#0e7490">⛴ 廈鼓航線</span></td><td>東渡郵輪中心 → 內厝澳：每小時 :10 開（08:10–17:10）；內厝澳 → 東渡：每小時 :40（末班 17:40）。普通船往返 ¥35。</td></tr>
+   <tr><td><span class="pill" style="background:#7c3aed">🚗 包車</span></td><td>12/26 泉州 → 五店市 → 梧林 → 廈門沙坡尾，估計 ¥400–650。</td></tr>
+   <tr><td><span class="pill" style="background:#0f2a44">✈ 機場</span></td><td>去程：高崎 T3（兩岸航班）；回程：翔安新機場（預計）。</td></tr>
+  </tbody></table>
+  <h4>③ 現場常見簡體指標對照（抬頭就看得懂）</h4>
+  <table class="zebra"><thead><tr><th>現場簡體招牌</th><th>意思</th><th>English</th></tr></thead><tbody><tr><td class="signcell"><span class="signboard sm">出口</span></td><td>出口</td><td>Exit</td></tr><tr><td class="signcell"><span class="signboard sm">出租车</span></td><td>計程車</td><td>Taxi</td></tr><tr><td class="signcell"><span class="signboard sm">网约车上车点</span></td><td>網約車（滴滴）上車點</td><td>Ride-hailing pick-up</td></tr><tr><td class="signcell"><span class="signboard sm">进站口</span></td><td>進站口</td><td>Entrance</td></tr><tr><td class="signcell"><span class="signboard sm">检票口</span></td><td>剪票口</td><td>Ticket gate</td></tr><tr><td class="signcell"><span class="signboard sm">出站口</span></td><td>出站口</td><td>Exit (station)</td></tr><tr><td class="signcell"><span class="signboard sm">到达</span></td><td>入境／抵達</td><td>Arrivals</td></tr><tr><td class="signcell"><span class="signboard sm">出发</span></td><td>出發</td><td>Departures</td></tr><tr><td class="signcell"><span class="signboard sm">台湾居民</span></td><td>台灣居民通道</td><td>Taiwan residents</td></tr><tr><td class="signcell"><span class="signboard sm">行李提取</span></td><td>領取行李</td><td>Baggage claim</td></tr><tr><td class="signcell"><span class="signboard sm">人工通道</span></td><td>人工驗證通道</td><td>Staffed lane</td></tr><tr><td class="signcell"><span class="signboard sm">厦鼓码头</span></td><td>廈門往鼓浪嶼碼頭</td><td>Xiamen–Gulangyu pier</td></tr><tr><td class="signcell"><span class="signboard sm">卫生间</span></td><td>洗手間</td><td>Toilet</td></tr><tr><td class="signcell"><span class="signboard sm">寄存处</span></td><td>行李寄放處</td><td>Left luggage</td></tr><tr><td class="signcell"><span class="signboard sm">禁止通行</span></td><td>禁止通行</td><td>No entry</td></tr></tbody></table>
+  <h4>④ 大陸路牌樣式</h4>
+  <p>大陸城市路牌為<b>藍底白字</b>，上排漢字、下排大寫拼音，例如：<span class="roadsign"><b>西街</b><i>XI JIE</i></span><span class="roadsign"><b>中山中路</b><i>ZHONG SHAN ZHONG LU</i></span><span class="roadsign"><b>大同路</b><i>DA TONG LU</i></span><span class="roadsign"><b>镇邦路</b><i>ZHEN BANG LU</i></span></p>
+</section>
+<section class="day page-break" data-day="1" id="day1">
+  <div class="dayhead"><div class="dnum">DAY 1</div><div><p class="ddate">12/24（四） · 泉州</p><h3>抵達・泉州城南：媽祖廟、古城門與平安夜小院晚餐</h3>
+  <p class="free">🌿 留白時間：14:45–15:30 慢慢走過涂門街、喝杯茶；晚餐後自由回酒店</p></div></div>
+  
+  <article class="card no-break" id="t_flight_out">
+    <header class="ch"><span class="time">08:40</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>去程班機：華信 AE991（華航 CI991 共掛）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E9%AB%98%E5%B4%8E%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>12/24(四) 桃園 T2 08:40 → 廈門高崎 T3 10:30（2026/27 冬季班表，訂票時再確認）</dd></div><div><dt>門票／價位</dt><dd>經濟艙約 NT$11,000 起（華航官網參考價）</dd></div><div><dt>預約</dt><dd>立即訂位：12/25 為台灣行憲紀念日連假，機位緊。替代：廈航 MF888 桃園 11:10 → 12:50</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#0f2a44">✈ 航班</span> <code class="stcode">TPE T2 → XMN T3</code></p><p>桃園機場第二航廈（T2）報到；起飛前 2 小時抵達</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「厦门高崎国际机场 T3」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="muted">—</span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门高崎国际机场 T3</div><p>入境大廳指標：「台湾居民」通道／「入境 Arrivals」／「行李提取」</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>落地後走「台湾居民／中国公民」通道，刷卡式台胞證入境 → 領行李 → 跟著「出租车 / 空港快线」指標出到達層。</p></div></div>
+    </div><p class="tip">💡 ⚠️ 12/24 很可能是高崎機場最後營運日（新翔安機場預計 12/25 啟用）。去程仍降落高崎 T3；請在 12 月中再確認航空公司通知。</p>
+  </article>
+  <article class="card no-break" id="t_to_train">
+    <header class="ch"><span class="time">11:00</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>高崎機場 → 廈門北站 → 動車到泉州</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%8C%97%E7%AB%99" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>建議車次：D2290 廈門北 12:26 → 泉州 12:58，或 D3290 12:31 → 13:03（後備 D3206 12:52 → 13:24）</dd></div><div><dt>門票／價位</dt><dd>二等座 ¥27–32／一等座 ¥43–50（攜程 2026/10 查詢）</dd></div><div><dt>預約</dt><dd>12306 App 以台胞證註冊（線上即時核驗），12/24 車票約 12/10 開賣；站名務必選「泉州」（不是泉州東／泉州南）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#1f6fb2">動車 D</span> <code class="stcode">厦门北 → 泉州</code></p><p>計程車 25–35 分鐘、約 ¥50–70；或空港快線「北站專線」¥15（T3 國內到達層 7 號門西側約 80 m，約每 20 分一班）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「厦门北站」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="muted">—</span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门北站</div><p>車站指標：「进站口」→「检票口」→ 看大螢幕「车次 D2290 / 终到 泉州」</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>進站：刷台胞證過實名閘機（讀不到就走「人工通道」）。廈門北到泉州班次多（約 82 班／日），比廈門站（約 22 班）方便很多。</p></div></div>
+    </div><p class="tip">💡 10:30 落地 → 入境＋領行李約 45–60 分 → 計程車 30 分 → 約 12:00 抵廈門北，訂 12:26 那班留緩衝。</p>
+  </article>
+  <article class="card no-break" id="hotel">
+    <header class="ch"><span class="time">13:00 寄放行李</span><span class="badge" style="background:#8a6d1f">住宿</span>
+      <h4>泉州濱江皇冠假日酒店</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E6%BB%A8%E6%B1%9F%E7%9A%87%E5%86%A0%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>入住15:00／退房12:00；前台 0595-36018888（IHG官網） <a class="src" href="https://www.ihg.com/crowneplaza/hotels/cn/zh/quanzhou/jjnrq/hoteldetail">來源</a></dd></div><div><dt>預約</dt><dd>已訂；12/24 平安夜酒店可能有聖誕自助晚餐，若想在店內用餐需提前問（未核實）</dd></div><div><dt>地址</dt><dd>福建省泉州市鲤城区浮桥街道江滨南路2233号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>泉州站（動車）→酒店約4.5公里（酒店官網），滴滴約15分鐘、約20元（估計，未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「泉州滨江皇冠假日酒店」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>江滨南路</b><i>JIANG BIN NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">泉州滨江皇冠假日酒店</div><p>現代高樓，IHG『CROWNE PLAZA 皇冠假日』綠色/白色字標（品牌標準，現場外觀未核實）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>位於晉江南岸『鯉城江南新區』，非古城內；Trip.com標示距泉州古城約4.2公里、距西街約5.5公里，Hotels.com稱到開元寺約10分鐘車程。每次進古城都要叫車（約10–20分鐘）。</p></div></div>
+    </div><p class="tip">💡 住客評價亮點為江景、日落與早餐；回酒店的休息時段（D2午後）可利用室內恆溫泳池與江景。古城西街、中山路白天禁行機動車，叫車目的地要填禁行區外的上車點（見「出發前必看」第 2 點）。</p>
+  </article>
+  <article class="card no-break" id="f_haochengcai">
+    <header class="ch"><span class="time">14:00 遲午餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>好成財牛排館（塗門街總店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E5%A5%BD%E6%88%90%E8%B4%A2%E7%89%9B%E6%8E%92%E9%A6%86%28%E6%B6%82%E9%97%A8%E8%A1%97%E6%80%BB%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="note">⏱ 13:30 後不用排隊，正好錯開飯點</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>10:00-20:30（Trip.com） <a class="src" href="https://hk.trip.com/restaurant/china/quanzhou/detail/hao-chengcai-steak-house-153542/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約30–37元（百度百科/攜程）</dd></div><div><dt>預約</dt><dd>不需；半自助：先點單付款憑票取餐</dd></div><div><dt>地址</dt><dd>泉州市鲤城区涂门街221号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">牛排</td><td>牛排（泉州式帶骨牛肋排燉）</td><td>未核實</td></tr><tr><td class="simp">牛肉羹</td><td>牛肉羹</td><td>未核實</td></tr><tr><td class="simp">咸饭</td><td>鹹飯</td><td>未核實</td></tr><tr><td class="simp">A套餐</td><td>A套餐（牛排＋湯＋鹹飯）</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>在府文廟與通淮關岳廟之間，涂門街上</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴填「通淮关岳庙」，招牌在關岳廟正對面一側</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>涂门街</b><i>TU MEN JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">好成财牛排馆(涂门街总店)</div><p>招牌醒目，位於通淮關岳廟對面（動網天際）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>關岳廟正對面一側。</p></div></div>
+    </div><p class="tip">💡 始於1910年，中華老字號；泉州『牛排』是藥膳/咖哩香的燉牛肋排，不是西式牛排。飯點排隊，13:30後較鬆。更在地的替代：東興牛肉店（庄府巷11/13號，07:00開，人均約37元）——但該店2025-04曾因倉儲不合規被市監立案，請自行斟酌。</p>
+  </article>
+  <article class="card no-break" id="d1_tianhougong">
+    <header class="ch"><span class="time">15:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>泉州天后宮</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E5%A4%A9%E5%90%8E%E5%AE%AB" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/tianhougong.jpg" alt="實景：泉州天后宮大殿（世界遺產點）" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：泉州天后宮大殿（世界遺產點） · <a href="https://commons.wikimedia.org/wiki/File:泉州天后宫大殿.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>冬令時 7:00-17:30（閉館前30分鐘停止入場，即17:00） <a class="src" href="https://news.qq.com/rain/a/20260213A04X4F00">來源</a></dd></div><div><dt>休息日</dt><dd>無固定休館日（未見公告）</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>免預約（泉州本地寶）</dd></div><div><dt>地址</dt><dd>泉州市鲤城区南门天后路一号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>酒店→天后宮約3–5公里，滴滴約10–15分鐘（未核實）；中山南路『義全街至天后宮路段』8:00-23:00禁行機動車，目的地請設『德济门遗址』或『天后路』而非中山南路。</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>中山南路 08:00–23:00 禁行機動車 → 滴滴目的地填「德济门遗址」或「天后路」，下車即見紅磚山門</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>天后路</b><i>TIAN HOU LU</i></span><span class="roadsign"><b>中山南路</b><i>ZHONG SHAN NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">泉州天后宫</div><p>紅磚燕尾脊閩南宮廟，山門匾額（網友稱『泉郡天后宮』，未核實）；正殿為世遺點</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>與德濟門遺址隔街相望（天后宮在北、遺址在南臨江）。</p></div></div>
+    </div><p class="tip">💡 世界現存祭祀規格最高的媽祖廟之一；遊客量遠低於開元寺。冬季17:00停止入場，務必16:30前到。東西廊為閩臺緣相關陳列。</p>
+  </article>
+  <article class="card no-break" id="d1_dejimen">
+    <header class="ch"><span class="time">16:40</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>德濟門遺址</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E5%BE%B7%E6%B5%8E%E9%97%A8%E9%81%97%E5%9D%80" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/dejimen_plaque.jpg" alt="實景：德濟門遺址文保石碑，認明「德济门遗址」" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：德濟門遺址文保石碑，認明「德济门遗址」 · <a href="https://commons.wikimedia.org/wiki/File:20230129_Remains_of_Deji_Gate_01.jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/dejimen_ruins.jpg" alt="實景：下沉式宋元城門遺址" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：下沉式宋元城門遺址 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Dejimen_Yizhi_20120229-1.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>露天遺址公園，全日開放（Trip.com） <a class="src" href="https://hk.trip.com/travel-guide/attraction/quanzhou/deji-gate-site-13853721/">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区天后路（天后宫正对面）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>天后宮過馬路即到，步行1–2分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「德济门遗址」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>天后路</b><i>TIAN HOU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">德济门遗址</div><p>下沉式石構城門遺址（宋—清城垣、內濠溝、古拱橋），立有全國重點文物保護單位石碑</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>站在天后宮山門面向南（晉江方向）即見下沉遺址。</p></div></div>
+    </div><p class="tip">💡 泉州古城七門中唯一經考古清理的城門遺址，是宋元刺桐港貨物進出城的主通道；黃昏光線好、人少。約30分鐘。</p>
+  </article>
+  <article class="card no-break" id="f_bingzheng">
+    <header class="ch"><span class="time">16:50 點心</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>秉正堂石花膏（天后宮總店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E7%A7%89%E6%AD%A3%E5%A0%82%E7%9F%B3%E8%8A%B1%E8%86%8F%28%E5%A4%A9%E5%90%8E%E5%AE%AB%E6%80%BB%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>07:00-次日00:30（攜程/Trip.com） <a class="src" href="https://gs.ctrip.com/html5/you/foods/fooddetail/243/7779607.html">來源</a></dd></div><div><dt>休息日</dt><dd>無（未見公告）</dd></div><div><dt>預約</dt><dd>不需，現場點單</dd></div><div><dt>地址</dt><dd>泉州市鲤城区天后路1-3号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">石花膏</td><td>石花膏</td><td>約8元（攜程點評）</td></tr><tr><td class="simp">四果汤</td><td>四果湯</td><td>約10元（去哪兒，未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>天后宮旁，步行1分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「秉正堂石花膏(天后宫总店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>天后路</b><i>TIAN HOU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">秉正堂石花膏(天后宫总店)</div><p>『秉正』中華老字號招牌（具體配色未核實）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>緊鄰天后宮。</p></div></div>
+    </div><p class="tip">💡 始於清光緒（1893），泉州石花膏製作技藝2026年3月入選福建省級非遺。12月偏涼，可請店家少冰（是否供應溫熱版未核實）。</p>
+  </article>
+  <article class="card no-break" id="f_lvdoubing">
+    <header class="ch"><span class="time">順路伴手</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>林記正泉茂綠豆餅（天后宮店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E6%9E%97%E8%AE%B0%E6%AD%A3%E6%B3%89%E8%8C%82%E7%BB%BF%E8%B1%86%E9%A5%BC" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>未核實 <a class="src" href="https://www.quanzhougastronomy.com/ch/msjy/fypx/202501/t20250104_3126947.htm">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区天后路10号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">绿豆饼</td><td>綠豆餅</td><td>人均約6元（舊資料，未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>天后宮旁步行1–2分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「林记正泉茂绿豆饼」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>天后路</b><i>TIAN HOU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">林记正泉茂绿豆饼</div><p>老夫妻經營小店，店內掛滿獎牌（每日頭條）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>天后路上，秉正堂附近。</p></div></div>
+    </div><p class="tip">💡 始創於清咸豐六年（1857），市級非遺；新鮮出爐燙手，油紙古法包裝，適合買回酒店配茶。</p>
+  </article>
+  <article class="card no-break" id="d1_jubaojie">
+    <header class="ch"><span class="time">17:00 黃昏</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>聚寶街—青龍巷—富美古渡（南門城南漫步）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E8%81%9A%E5%AE%9D%E8%A1%97" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shunjiqiao.jpg" alt="實景：聚寶街旁晉江上的順濟橋遺址" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：聚寶街旁晉江上的順濟橋遺址 · <a href="https://commons.wikimedia.org/wiki/File:顺济桥.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>街區全日開放 <a class="src" href="https://www.quanzhou.gov.cn/lyb/lysy/mnjz/201510/t20151024_176941.htm">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区聚宝街（天后路西侧，近德济门遗址）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>德濟門遺址步行約3–5分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「聚宝街」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>聚宝街</b><i>JU BAO JIE</i></span><span class="roadsign"><b>青龙巷</b><i>QING LONG XIANG</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">聚宝街</div><p>街長約400公尺，鳳凰樹、閩南古厝與西式教堂（市政府介紹）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>閩南俗語『金青龍，銀聚寶』指這兩條巷；可沿聚寶街往西走到青龍巷與富美渡頭（晉江邊）看日落（12月下旬日落約17:30前後，未核實）。</p></div></div>
+    </div><p class="tip">💡 宋元時海關口、稅關行、信局、銀號雲集的『城南CBD』，現在是老街坊生活區，遊客遠少於西街；車橋頭文阿水丸發源於此地車橋頭。</p>
+  </article>
+  <article class="card no-break" id="f_d1_dinner_haoting">
+    <header class="ch"><span class="time">18:30 晚餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>好廳·泉州菜·閩南小館（鯉城店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E5%A5%BD%E5%8E%85%C2%B7%E6%B3%89%E5%B7%9E%E8%8F%9C%C2%B7%E9%97%BD%E5%8D%97%E5%B0%8F%E9%A6%86%28%E9%B2%A4%E5%9F%8E%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>10:30-21:30（Trip.com） <a class="src" href="https://tw.trip.com/restaurant/china/quanzhou/detail/hall-thing-30098536/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約105元（攜程）</dd></div><div><dt>預約</dt><dd>米其林頁註明『自行管理預約』；平安夜建議提前電話/大眾點評訂位</dd></div><div><dt>地址</dt><dd>泉州市鲤城区公界巷24号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">永春芋面线（芋仔非遗面线）</td><td>永春芋麵線</td><td>未核實</td></tr><tr><td class="simp">招牌蟳埔海蛎煎</td><td>蟳埔海蠣煎</td><td>未核實</td></tr><tr><td class="simp">蟳埔煎蟹</td><td>蟳埔煎蟹</td><td>未核實</td></tr><tr><td class="simp">五香卷</td><td>五香捲</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>聚寶街→公界巷約1.5–2公里，滴滴約8–10分鐘（未核實）；巷窄，請在中山路外下車步行</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「好厅·泉州菜·闽南小馆(鲤城店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>公界巷</b><i>GONG JIE XIANG</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">好厅·泉州菜·闽南小馆(鲤城店)</div><p>藏在老城小巷的別緻小院，室內文藝、滿布福建古董（米其林描述）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>大眾點評網友稱『不太好找』，建議高德導航『好厅·泉州菜·闽南小馆』步行最後一段。</p></div></div>
+    </div><p class="tip">💡 2026福建米其林必比登推介；比西街名店更有氣氛，適合情侶平安夜晚餐。</p>
+  </article>
+</section>
+<section class="day page-break" data-day="2" id="day2">
+  <div class="dayhead"><div class="dnum">DAY 2</div><div><p class="ddate">12/25（五） · 泉州</p><h3>古城背巷：開元寺清晨、小巷東西塔、承天寺與鹽燒薑母鴨</h3>
+  <p class="free">🌿 留白時間：13:00–14:45 回酒店午休／泳池，或在承天巷咖啡館歇腳</p></div></div>
+  
+  <article class="card no-break" id="f_d2_breakfast_luoji">
+    <header class="ch"><span class="time">07:30 早餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>羅記麵線糊</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E7%BD%97%E8%AE%B0%E9%9D%A2%E7%BA%BF%E7%B3%8A" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/mianxianhu.jpg" alt="示意：泉州麵線糊（非羅記本店照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：泉州麵線糊（非羅記本店照片） · <a href="https://commons.wikimedia.org/wiki/File:Mī-suànn-kôo_in_Quanzhou_(20200929220207).jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>07:00-11:30（百科文庫，未核實；米其林頁未列時間） <a class="src" href="https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/luo-ji-mian-xian-hu">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>¥（米其林價位最低級）</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区县后街56号（二院后门斜对面）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">面线糊（加醋肉、小肠）</td><td>麵線糊（加醋肉、小腸）</td><td>基本碗約4–5元＋配料（泉州美食之都網：一碗配油條四五元）</td></tr><tr><td class="simp">油条</td><td>油條</td><td>約1–2元（未核實）</td></tr><tr><td class="simp">炒猪肝</td><td>炒豬肝</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>酒店滴滴約15分鐘（未核實）；到店後步行約10分鐘可到開元寺（未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「罗记面线糊」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>县后街</b><i>XIAN HOU JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">罗记面线糊</div><p>褪色舊招牌、復古搪瓷餐具（ChefID/米其林描述）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>泉州第二醫院（二院）後門斜對面。</p></div></div>
+    </div><p class="tip">💡 必比登推介、經營40多年；湯頭加滷汁與當歸酒，比水門國仔更像在地人的早餐店。替代：水門國仔老店（水門巷21號，06:00-21:00）。</p>
+  </article>
+  <article class="card no-break" id="d2_kaiyuansi">
+    <header class="ch"><span class="time">08:15</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>泉州開元寺</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E5%A4%A7%E5%BC%80%E5%85%83%E5%AF%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/kaiyuan_hall.jpg" alt="實景：開元寺大雄寶殿" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：開元寺大雄寶殿 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Kaiyuan_Temple_-_大雄宝殿_20170727.jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/kaiyuan_pagoda.jpg" alt="實景：東塔「镇国塔」" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：東塔「镇国塔」 · <a href="https://commons.wikimedia.org/wiki/File:Zhenguo_Pagoda_of_Kaiyuan_Temple_(Quanzhou)_20170727.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>6:30-17:00入寺，17:40清場（2025-10-27起調整；2026-08本地寶再確認） <a class="src" href="http://qz.fjsen.com/2025-10/28/content_32066237.htm">來源</a></dd></div><div><dt>休息日</dt><dd>全年開放</dd></div><div><dt>門票／價位</dt><dd>免費、免預約</dd></div><div><dt>預約</dt><dd>寺內『弘一法師紀念館』需在『泉州大开元寺』公眾號/小程序預約；東西塔登塔據報需提前1天公眾號預約、每日限500人（新浪文章，未核實）</dd></div><div><dt>地址</dt><dd>泉州市鲤城区西街176号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>由縣後街步行約10分鐘（未核實）；若叫車請設『开元寺西门』公交站一帶，西街東段8:00-23:00禁機動車</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>西街東段 08:00–23:00 禁行機動車 → 滴滴填「开元寺西门」公交站一帶；正門在西街 176 號、紫雲屏照壁正對面</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>西街</b><i>XI JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">泉州大开元寺</div><p>山門（天王殿）石柱懸朱熹撰聯『此地古称佛国，满街都是圣人』；大雄寶殿前拜庭兩側東塔『镇国塔』、西塔『仁寿塔』</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>正門前有『紫雲屏』照壁，照壁粉牆後即象峰巷。</p></div></div>
+    </div><p class="tip">💡 8:00前後到，人少光線柔；大雄殿梁間24尊飛天樂伎、殿後廊古婆羅門教石柱別錯過。2026-10-21起中軸線、主要通道、弘一法師紀念館等禁止商業拍攝（旅拍）。請穿著得體。</p>
+  </article>
+  <article class="card no-break" id="d2_lanes">
+    <header class="ch"><span class="time">10:00</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>西街背巷：象峰巷—三朝巷—古榕巷—舊館驛巷（芥子書屋）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E8%B1%A1%E5%B3%B0%E5%B7%B7" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/xijie_lane.jpg" alt="實景：西街背巷（台魁巷）" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：西街背巷（台魁巷） · <a href="https://commons.wikimedia.org/wiki/File:泉州西街_台魁巷_tai_kui_xiang_-_panoramio.jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/xijie_view.jpg" alt="實景：西街屋頂與開元寺塔" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：西街屋頂與開元寺塔 · <a href="https://commons.wikimedia.org/wiki/File:Xi_Jie_(West_Street),_Quanzhou_Aug_2023.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>巷弄全日；芥子書屋營業時間未核實 <a class="src" href="https://www.quanzhou.gov.cn/lyb/lyxw/202511/t20251121_3233126.htm">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区西街象峰巷（开元寺紫云屏后）；芥子书屋：西街象峰巷4号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>開元寺正門對面即象峰巷，步行1分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>開元寺正門對面「紫云屏」照壁後方即象峰巷入口</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>象峰巷</b><i>XIANG FENG XIANG</i></span><span class="roadsign"><b>三朝巷</b><i>SAN CHAO XIANG</i></span><span class="roadsign"><b>古榕巷</b><i>GU RONG XIANG</i></span><span class="roadsign"><b>旧馆驿</b><i>JIU GUAN YI</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">象峰巷</div><p>芥子書屋：小書店（二樓不開放，高德評論）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>市文旅局2025-11推薦小巷線：象峰巷抬頭望東塔；三朝巷與象峰巷交界有鳳凰木與西塔相映；古榕巷36號牆嵌觀音像、22號古城最小石敢當、60號院內南外宗正司遺址；舊館驛2號董楊大宗祠、4號末代狀元吳魯讀書處。</p></div></div>
+    </div><p class="tip">💡 這條線是官方推薦但多數遊客不走的『背街』，安靜、可拍到不被人潮擋住的東西塔。</p>
+  </article>
+  <article class="card no-break" id="f_yafo">
+    <header class="ch"><span class="time">順路點心</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>亞佛潤餅皮（西街老店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E4%BA%9A%E4%BD%9B%E6%B6%A6%E9%A5%BC%E7%9A%AE" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/runbing.jpg" alt="示意：潤餅捲（非亞佛本店照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：潤餅捲（非亞佛本店照片） · <a href="https://commons.wikimedia.org/wiki/File:LunBhia.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>07:00-20:00（Trip.com） <a class="src" href="https://hk.trip.com/restaurant/china/quanzhou/detail/restaurant-15904058/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区西街165号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">润饼（润饼菜）</td><td>潤餅（潤餅菜）</td><td>約5–10元一捲（今日頭條/網易，未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>開元寺對面一帶西街上，步行數分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「亚佛润饼皮」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>西街</b><i>XI JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">亚佛润饼皮</div><p>中華老字號『亞佛潤餅皮』，店門口現場攤皮</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>開元寺附近西街165號。</p></div></div>
+    </div><p class="tip">💡 創辦於1898年、傳承4代；潤餅是泉州冬至與清明家常菜，12月吃正應景。</p>
+  </article>
+  <article class="card no-break" id="f_d2_lunch_houapo">
+    <header class="ch"><span class="time">11:45 午餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>侯阿婆·燒肉粽（東街總店／鐘樓店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E4%BE%AF%E9%98%BF%E5%A9%86%E8%82%89%E7%B2%BD%28%E4%B8%9C%E8%A1%97%E6%80%BB%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/clock_tower.jpg" alt="實景：泉州鐘樓，侯阿婆在鐘樓東側東街" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：泉州鐘樓，侯阿婆在鐘樓東側東街 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Clock_Tower.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>08:30-20:30（Trip.com；另有資料8:30-21:30） <a class="src" href="https://hk.trip.com/restaurant/china/quanzhou/detail/grandma-hou-roast-pork-rice-dumplings-153551/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約24元（十六番，舊）</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区东街59号（中国工商银行斜对面）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">招牌鲍鱼烧肉粽</td><td>招牌鮑魚燒肉粽</td><td>未核實</td></tr><tr><td class="simp">闽南烧肉粽</td><td>閩南燒肉粽</td><td>未核實</td></tr><tr><td class="simp">牛肉羹</td><td>牛肉羹</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>由舊館驛巷/西街步行到鐘樓約10–15分鐘，東街59號在鐘樓東側</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「侯阿婆肉粽(东街总店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>东街</b><i>DONG JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">侯阿婆肉粽(东街总店)</div><p>『侯阿婆』招牌，1978年創立（具體配色未核實）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>鐘樓往東沿東街，工商銀行斜對面。注意隔壁另有『东街钟楼肉粽』等店，別走錯。</p></div></div>
+    </div><p class="tip">💡 肉粽不留隔夜；淋甜辣醬、蒜蓉、花生醬拌著吃。若想吃泉州『牛排三件套』改去好成財（下一筆）。</p>
+  </article>
+  <article class="card no-break" id="d2_free">
+    <header class="ch"><span class="time">13:00 留白</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>自由時間：回酒店午休／江景、泳池</h4></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"></dl>
+    <p class="tip">💡 若不回酒店，可在金魚巷咖啡館或承天巷『赤子空間/巴浪魚咖啡』歇腳（冷萃配香煎巴浪魚，泉州美食之都網）。</p>
+  </article>
+  <article class="card no-break" id="d2_wenmiao">
+    <header class="ch"><span class="time">15:00</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>泉州府文廟</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E5%BA%9C%E6%96%87%E5%BA%99" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/wenmiao.jpg" alt="實景：泉州府文廟大成殿" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：泉州府文廟大成殿 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Confucian_Temple_Dacheng_Hall_2019_(2).jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>冬令時 9:00-17:30（17:00停止入場） <a class="src" href="https://news.qq.com/rain/a/20260213A04X4F00">來源</a></dd></div><div><dt>休息日</dt><dd>未見固定休館日；除夕閉館</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>免預約</dd></div><div><dt>地址</dt><dd>泉州市鲤城区涂门街西段百源川池畔（中山中路附近）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>酒店滴滴約15分鐘（未核實）；目的地設『泉州府文庙』涂门街側（涂门街未列入禁行段）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴目的地填「泉州府文庙」涂门街側（涂门街不在禁行段）</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>涂门街</b><i>TU MEN JIE</i></span><span class="roadsign"><b>中山中路</b><i>ZHONG SHAN ZHONG LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">泉州府文庙</div><p>『左學右廟』宋—清孔廟建築群，大成殿重簷歇山（世遺點）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>廣場在涂門街西段，往西接中山中路，北側出口可接金魚巷。</p></div></div>
+    </div><p class="tip">💡 東南地區規模最大文廟，下午人少、安靜；廣場常有老人泡茶。</p>
+  </article>
+  <article class="card no-break" id="d2_jinyuxiang">
+    <header class="ch"><span class="time">15:50</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>金魚巷—中山中路騎樓</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%E9%87%91%E9%B1%BC%E5%B7%B7" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>巷弄全日；店鋪多11:00後開（去哪兒） <a class="src" href="https://travelnews.qunar.com/ugc/quanzhou-fuwenmiao-jinyuxiang-free">來源</a></dd></div><div><dt>休息日</dt><dd>店家各異</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区金鱼巷（连接中山中路与府文庙一带）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">元宵圆</td><td>元宵圓</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>府文廟步行約3分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「金鱼巷」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>金鱼巷</b><i>JIN YU XIANG</i></span><span class="roadsign"><b>中山中路</b><i>ZHONG SHAN ZHONG LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">金鱼巷</div><p>巷口掛有『金魚巷』名稱來源考據牌（唐宋官員佩金魚袋、謝氏『金魚世第』匾）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>271公尺長；巷內5號『金凤元宵圆』手工元宵圓。出巷接中山中路騎樓（中山中路8:00-23:00禁機動車，步行最舒服）。</p></div></div>
+    </div><p class="tip">💡 泉州首個背街小巷微改造（獲建築學會獎），閩南海蠣殼牆、出磚入石工藝可細看。</p>
+  </article>
+  <article class="card no-break" id="d2_chengtiansi">
+    <header class="ch"><span class="time">16:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>承天寺（承天禪寺）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E6%89%BF%E5%A4%A9%E5%AF%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/chengtiansi_gate.jpg" alt="實景：承天寺山門" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：承天寺山門 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Chengtian_Si_20120301-03.jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/chengtiansi_stele.jpg" alt="實景：「承天寺」石碑" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：「承天寺」石碑 · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou_Chengtian_Si_20120301-02.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>8:00-17:30（17:00停止入園，Trip Moments／百度百科） <a class="src" href="https://hk.trip.com/travel-guide/attraction/quanzhou/chengtian-temple-77511/">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区南俊路36号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>金魚巷→承天巷→承天寺步行約8–10分鐘（未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>西門入：公交 10／25／K1／X1「承天寺」站步行 50 m</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>南俊路</b><i>NAN JUN LU</i></span><span class="roadsign"><b>承天巷</b><i>CHENG TIAN XIANG</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">承天寺</div><p>山門面西，第一山門橫匾『月台』金字（故又稱月台寺）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>承天巷內有唐代南門遺址（中山路巷口）、基督教福音堂與承天寺隔街相望；公交10/25/K1/X1路『承天寺』站步行50公尺到西門（Trip Moments）。</p></div></div>
+    </div><p class="tip">💡 泉州三大叢林之一，遊客遠少於開元寺，被稱『城市山林』；12月底寺內梅花可能初開（花期未核實）。注意17:00停止入園，順序可與府文廟對調。</p>
+  </article>
+  <article class="card no-break" id="f_d2_dinner_zhongji">
+    <header class="ch"><span class="time">18:00 晚餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>忠記鹽燒番鴨（忠記薑母鴨）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E5%BF%A0%E8%AE%B0%E7%9B%90%E7%83%A7%E7%95%AA%E9%B8%AD" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/jiangmuya.jpg" alt="示意：泉州薑母鴨（非忠記本店照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：泉州薑母鴨（非忠記本店照片） · <a href="https://commons.wikimedia.org/wiki/File:Quanzhou-style_Kiuⁿ-bó-ah_(Ginger_Duck)_at_Yipin_Xiangqing_Restaurant,_Beijing_(20240908174515).jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>10:00-21:00（Trip Moments，2026）；舊資料09:00-21:00 <a class="src" href="https://hk.trip.com/moments/theme/poi-zhongji-ginger-duck-15898242-itinerary-999195/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約82–90元（去哪兒/攜程）</dd></div><div><dt>預約</dt><dd>米其林：自行管理預約；電話 0595-22775083（去哪兒）</dd></div><div><dt>地址</dt><dd>泉州市鲤城区崇福路91号（近市教委）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">盐烧姜母鸭</td><td>鹽燒薑母鴨</td><td>一隻約90–130元（網友點評，未核實）</td></tr><tr><td class="simp">炒鸭血</td><td>炒鴨血</td><td>未核實</td></tr><tr><td class="simp">灌肠鸭血汤</td><td>灌腸鴨血湯</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>承天寺→崇福路約2公里，滴滴約8分鐘（未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>25 路公車「东门」站步行約 5 分鐘；滴滴填「忠记盐烧番鸭」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>崇福路</b><i>CHONG FU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">忠记盐烧番鸭</div><p>門前廚房整齊排列數十個砂煲持續烹煮（米其林描述）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>25路『东门』站步行約5分鐘（攜程）。</p></div></div>
+    </div><p class="tip">💡 必比登推介；鹽燒派（砂鍋＋鐵鍋鹽沙二重隔熱慢煲3–4小時），冬夜暖身。兩人點半隻是否可行未核實。替代：張林阿山薑母鴨（新華北路65-6號，11:00-20:30，必比登）、建來發（南俊北路104-106號，必比登，鹽燒鴨）。</p>
+  </article>
+  <article class="card no-break" id="f_d2_night_option">
+    <header class="ch"><span class="time">宵夜選項</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>車橋頭文阿水丸（打錫街）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B3%89%E5%B7%9E%20%E8%BD%A6%E6%A1%A5%E5%A4%B4%E6%96%87%E9%98%BF%E6%B0%B4%E4%B8%B8%28%E6%89%93%E9%94%A1%E8%A1%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>未核實 <a class="src" href="https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/che-qiao-tou-wen-a-shui-wan-da">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>¥</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>泉州市鲤城区打锡街9号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">水丸汤</td><td>水丸湯（純魚丸、包餡肉丸、魚羹）</td><td>未核實</td></tr><tr><td class="simp">炸鸡卷</td><td>炸雞捲</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>打錫街在中山中路與九一路之間，古城內步行</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「车桥头文阿水丸(打锡街)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>打锡街</b><i>DA XI JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">车桥头文阿水丸(打锡街)</div><p>未核實</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>打錫街東起九一路口、西至中山中路，全長380公尺；隔壁17號為南麒樓1924（米其林入選，百年南洋風洋樓）。</p></div></div>
+    </div><p class="tip">💡 清同治年間始於聚寶街車橋頭、四代傳承，必比登推介；上午十點就坐滿老街坊。也可改作D2早午點心。</p>
+  </article>
+</section>
+<section class="day page-break" data-day="3" id="day3">
+  <div class="dayhead"><div class="dnum">DAY 3</div><div><p class="ddate">12/26（六） · 晉江 → 廈門</p><h3>僑鄉移師日：五店市、梧林番仔樓，傍晚沙坡尾與演武大橋日落</h3>
+  <p class="free">🌿 留白時間：車上休息；晚餐後沙坡尾酒吧／書店自由逛約 2 小時</p></div></div>
+  
+  <article class="card no-break" id="t_charter">
+    <header class="ch"><span class="time">09:30 退房</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>包車移師：泉州 → 晉江 → 廈門</h4><a class="btn amap" href="https://www.amap.com/search?query=%E4%BA%94%E5%BA%97%E5%B8%82%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8%E5%8C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>09:30 退房上車 → 10:00 五店市 → 12:15 梧林 → 14:15 出發 → 約 15:45–16:00 抵沙坡尾</dd></div><div><dt>門票／價位</dt><dd>半日包車估計 ¥400–650（含過路費需確認；請向 Trip.com／Klook／酒店禮賓詢價）</dd></div><div><dt>預約</dt><dd>出發前 1–2 週預訂；確認車型可放 2 個行李箱＋含停車過路費</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#7c3aed">🚗 包車</span> <code class="stcode">泉州 → 晉江 → 廈門島</code></p><p>酒店門口上車，行李全程留車上</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「五店市传统文化旅游区」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="muted">—</span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">五店市传统文化旅游区</div><p></p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>不包車也可以：滴滴分三段（酒店→五店市→梧林→沙坡尾）約 ¥300–420，但要自己拖行李，五店市／梧林能否寄放行李未核實。</p></div></div>
+    </div><p class="tip">💡 週六走這條「泉州 → 晉江僑鄉 → 廈門」順路單向線，完全不走回頭路。</p>
+  </article>
+  <article class="card no-break" id="d3_wudianshi">
+    <header class="ch"><span class="time">10:00</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>晉江五店市傳統街區</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%99%8B%E6%B1%9F%20%E4%BA%94%E5%BA%97%E5%B8%82%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8%E5%8C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>街區全年全天開放；遊客中心9:00-20:00 <a class="src" href="http://qz.bendibao.com/tour/2024923/31773.shtm">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費、免預約；『五店市民俗館（朝北大厝）』『岁时节庆馆』需另購票（現場，票價未核實）</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>福建省泉州市晋江市梅岭街道五店市进士路1号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>09:30退房；酒店→五店市約21公里（泉州市區→晉江），包車/滴滴約30–40分鐘（未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「五店市传统文化旅游区」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>进士路</b><i>JIN SHI LU</i></span><span class="roadsign"><b>状元街</b><i>ZHUANG YUAN JIE</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">五店市传统文化旅游区</div><p>紅磚燕尾脊古厝群，入口『五店市』牌坊（樣式未核實）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>建議路線（本地寶）：東南入口→柳青新宅→天官第→蔡氏家庙→庄氏家庙→朝北大厝→西門，約40分鐘；『紅牆廣場』進士路5號。</p></div></div>
+    </div><p class="tip">💡 晉江城區發源地、132棟明清至民國建築；週六上午遊客尚少。旁邊2025-01開街的『五店市國潮街區』較商業，可略過。</p>
+  </article>
+  <article class="card no-break" id="f_d3_lunch">
+    <header class="ch"><span class="time">11:00 午餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>食錦記家宴·閩南菜（五店市店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%99%8B%E6%B1%9F%20%E9%A3%9F%E9%94%A6%E8%AE%B0%E5%AE%B6%E5%AE%B4%C2%B7%E9%97%BD%E5%8D%97%E8%8F%9C%28%E4%BA%94%E5%BA%97%E5%B8%82%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>11:00-14:30, 17:00-21:30（攜程） <a class="src" href="https://gs.ctrip.com/html5/you/foods/fooddetail/243/16698506.html">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約99元，攜程4.9分（102條）</dd></div><div><dt>預約</dt><dd>週六建議11:00開門即到或先電話（號碼未核實）</dd></div><div><dt>地址</dt><dd>晋江五店市传统街区内（门牌未核實）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">老坛姜母鸭煲</td><td>老罈薑母鴨煲</td><td>未核實</td></tr><tr><td class="simp">咏春老醋鳗鱼</td><td>永春老醋鰻魚</td><td>未核實</td></tr><tr><td class="simp">头水紫菜饭</td><td>頭水紫菜飯</td><td>未核實</td></tr><tr><td class="simp">炸物四彩碟</td><td>炸物四彩碟</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>街區內步行</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「食锦记家宴·闽南菜(五店市店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>五店市传统街区</b><i>WU DIAN SHI CHUAN TONG JIE QU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">食锦记家宴·闽南菜(五店市店)</div><p>未核實</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>高德搜『食锦记家宴 五店市』。</p></div></div>
+    </div><p class="tip">💡 抖音介紹為五店市9年老店。另一選擇：臨家閩南菜(五店市店) 太保埕巷6號，11:00-14:00，人均約122元。若想吃土筍凍：五店市內小吃攤常見（Trip Moments），安海土筍凍為晉江名物。</p>
+  </article>
+  <article class="card no-break" id="d3_wulin">
+    <header class="ch"><span class="time">12:15</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>晉江梧林傳統村落</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%99%8B%E6%B1%9F%20%E6%A2%A7%E6%9E%97%E4%BC%A0%E7%BB%9F%E6%9D%91%E8%90%BD" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>村落全天開放、免費免預約；遊客中心至18:00、夜間23:00關燈（去哪兒）；侨批馆 10:00-17:00（攜程）／洋樓線9:00-18:00（晉江市政府2024） <a class="src" href="http://qz.bendibao.com/tour/2024923/31774.shtm">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費（國家4A）</dd></div><div><dt>預約</dt><dd>不需</dd></div><div><dt>地址</dt><dd>福建省泉州市晋江市新塘街道梧林社区中区17号（导航『梧林传统村落』，内有停车场）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">肉骨茶</td><td>肉骨茶</td><td>未核實</td></tr><tr><td class="simp">南洋咖啡</td><td>南洋咖啡</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>五店市→梧林約15–25分鐘（距離未核實）；泉州市區直達約30–40分鐘、滴滴50–60元（去哪兒）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「梧林传统村落」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>梧林大道</b><i>WU LIN DA DAO</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">梧林传统村落</div><p>紅磚大厝與哥德/羅馬式洋樓、番仔樓；侨批馆為西班牙哥德式洋樓、彩色玻璃窗</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>晉江市政府推薦洋樓線：朝東樓（1930年，梧林第一座鋼筋水泥洋樓）→五層厝→德鑨宅→修養樓（槍樓）→侨批馆。</p></div></div>
+    </div><p class="tip">💡 比西街更有『侨鄉』故事；週末遊客與娘惹旅拍多，建議走洋樓線而非主拍照點。村中有閩南古早味小吃街（炸醋肉、菜粿、魚肉羹）。</p>
+  </article>
+  <article class="card no-break" id="X00">
+    <header class="ch"><span class="time">16:00 入住</span><span class="badge" style="background:#8a6d1f">住宿</span>
+      <h4>廈門大學沙坡尾海景亞朵見野酒店</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E6%B2%99%E5%9D%A1%E5%B0%BE%E6%B5%B7%E6%99%AF%E4%BA%9A%E6%9C%B5%E8%A7%81%E9%87%8E%E9%85%92%E5%BA%97" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shimao_towers.jpg" alt="實景：酒店旁地標世茂海峽大廈雙子塔（Commons 無酒店本身照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：酒店旁地標世茂海峽大廈雙子塔（Commons 無酒店本身照片） · <a href="https://commons.wikimedia.org/wiki/File:Xiamen_Shimao_Straits_Tower_at_dusk.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>24小時；入住/退房時間未查到官方數字（亞朵一般 14:00 入住、12:00 退房，會員可延遲——未核實，請向前台 0592-5555899 確認） <a class="src" href="https://hotels.ctrip.com/hotels/133575239.html">來源</a></dd></div><div><dt>預約</dt><dd>已訂；2026 年開業、149 間房；攜程 4.8 分（1074 則評論）。免費停車場、充電車位、免費行李寄存、健身房、竹居圖書館、相招餐廳（閩南菜）</dd></div><div><dt>地址</dt><dd>厦门市思明区沙坡尾58号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">酒店早餐（闽南特色）</td><td>酒店早餐（閩南特色）</td><td>含於房價（依訂房條件）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">最近：1號線（目前沙坡尾沒有營運中的地鐵站）</span> <code class="stcode">镇海路（駕車約 2.3 km／8 分鐘）</code> <span class="muted">不建議以地鐵為主要交通；3號線南延段「沙坡尾站」仍在興建</span></p><p>自駕從泉州/晉江經沈海高速→廈門大橋/翔安隧道進島，再走環島幹道/演武路到沙坡尾，約 1.5–2 小時；導航輸入「沙坡尾58号」。酒店有免費停車場</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「厦门大学沙坡尾海景亚朵见野酒店」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>沙坡尾</b><i>SHA PO WEI</i></span><span class="roadsign"><b>大学路</b><i>DA XUE LU</i></span><span class="roadsign"><b>演武西路</b><i>YAN WU XI LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门大学沙坡尾海景亚朵见野酒店</div><p>亞朵「見野 ORIGIN」系列品牌，原木色調；面向沙坡尾避風塢，旁邊就是世茂雙子塔（約 440 m）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>距沙坡尾避風塢約 110 m、藝術西區（沙坡尾60號）就在隔壁；廈大思明校區約 780 m、環島路約 870 m</p></div></div>
+    </div><p class="tip">💡 住客評論常提「海景無敵、隔音好」；請要求避風塢景觀的高樓層房。12/28 若要先去南普陀/廈大，請先把行李寄放在前台。</p>
+  </article>
+  <article class="card no-break" id="X01">
+    <header class="ch"><span class="time">16:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>沙坡尾避風塢・沙坡尾藝術西區</h4><a class="btn amap" href="https://www.amap.com/search?query=%E6%B2%99%E5%9D%A1%E5%B0%BE%E8%89%BA%E6%9C%AF%E8%A5%BF%E5%8C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shapowei_boats.jpg" alt="實景：沙坡尾避風塢漁船" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：沙坡尾避風塢漁船 · <a href="https://commons.wikimedia.org/wiki/File:Fishing_boats_in_Shapowei,_Xiamen.jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shapowei_harbour.jpg" alt="實景：避風塢與老漁民屋" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：避風塢與老漁民屋 · <a href="https://commons.wikimedia.org/wiki/File:2015年的沙坡尾避风坞.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>避風塢全天開放；藝術西區 10:00–22:00（各店家營業時間不同） <a class="src" href="https://you.ctrip.com/sight/xiamen21/2065879.html">來源</a></dd></div><div><dt>休息日</dt><dd>無（以當日公告為準）</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需預約。週末有市集（UGC 說週末 10 點開市，未經官方核實）</dd></div><div><dt>地址</dt><dd>厦门市思明区沙坡尾60号（艺术西区）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">手冲咖啡（邮局咖啡 la poste cafe，大学路35号）</td><td>手沖咖啡（郵局咖啡，大學路35號）</td><td>約 ¥30–40（估計）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從酒店步行 1–3 分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「沙坡尾避风坞」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>沙坡尾</b><i>SHA PO WEI</i></span><span class="roadsign"><b>大学路</b><i>DA XUE LU</i></span><span class="roadsign"><b>沙坡巷</b><i>SHA PO XIANG</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">沙坡尾避风坞</div><p>舊冷凍廠改建的藝術區，有彩虹牆；小漁島書店（大學路3號）是有名的轉角</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>沿著避風塢的弧形堤岸走：一邊是漁船和舊漁民屋，對岸可以看到雙子塔。可上藝術西區三樓天台俯拍避風塢</p></div></div>
+    </div><p class="tip">💡 週六傍晚人多，建議先繞避風塢內側老漁民屋巷弄（民族路／大學路之間）再出來。日落請留給演武大橋。</p>
+  </article>
+  <article class="card no-break" id="X02">
+    <header class="ch"><span class="time">17:00 日落</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>演武大橋觀景平台</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/yanwu_sunset.jpg" alt="實景：演武大橋觀景平台日落" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：演武大橋觀景平台日落 · <a href="https://commons.wikimedia.org/wiki/File:演武大桥日落_-_Sunset_at_Yanwu_Bridge_-_2014.01_-_panoramio.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>冬令 06:00–21:00（夏令 06:00–22:00） <a class="src" href="https://baike.baidu.com/item/%E6%BC%94%E6%AD%A6%E5%A4%A7%E6%A1%A5%E8%A7%82%E6%99%AF%E5%B9%B3%E5%8F%B0/19839990">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需預約</dd></div><div><dt>地址</dt><dd>厦门市思明区演武大桥（世茂海峡大厦旁）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從沙坡尾步行 5–10 分鐘（往世茂雙子塔方向）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>從「世茂海峡大厦」旁入口下到平台最近</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>演武路</b><i>YAN WU LU</i></span><span class="roadsign"><b>演武西路</b><i>YAN WU XI LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">演武大桥观景平台</div><p>貼近海面的低矮步行平台，背景是雙子塔、演武大橋和鼓浪嶼</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>有三個出入口：世茂海峽大廈旁、演武路、海洋新村附近。從沙坡尾走世茂大廈這個入口最近。平台只能步行，不可騎車</p></div></div>
+    </div><p class="tip">💡 12/26 日落約 17:26（依天文公式計算；請以手機天氣 App 為準）。17:00 前到場卡位，入夜後雙子塔亮燈也很好看。海風大，請帶外套。</p>
+  </article>
+  <article class="card no-break" id="X03">
+    <header class="ch"><span class="time">18:30 晚餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>打漁船・老廈門本地菜・薑母鴨（沙坡尾地標美食店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E6%89%93%E6%B8%94%E8%88%B9%C2%B7%E8%80%81%E5%8E%A6%E9%97%A8%E6%9C%AC%E5%9C%B0%E8%8F%9C%C2%B7%E5%A7%9C%E6%AF%8D%E9%B8%AD%28%E6%B2%99%E5%9D%A1%E5%B0%BE%E5%9C%B0%E6%A0%87%E7%BE%8E%E9%A3%9F%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>未查到確切時間（大眾點評在晚間顯示「營業中」） <a class="src" href="https://m.dianping.com/shop/1276267232">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥94（大眾點評）</dd></div><div><dt>預約</dt><dd>大眾點評可訂位（330+ 人訂過）；週六晚上建議先訂或 18:00 前到</dd></div><div><dt>地址</dt><dd>厦门市思明区大学路18X号（大众点评只顯示「大学路18******」，門牌未完整核實）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">姜母鸭</td><td>薑母鴨</td><td>未核實</td></tr><tr><td class="simp">白灼东山水晶虾</td><td>白灼東山水晶蝦</td><td>時價</td></tr><tr><td class="simp">招牌老厦门煎蟹</td><td>招牌老廈門煎蟹</td><td>時價</td></tr><tr><td class="simp">海蛎捞饭</td><td>海蠣撈飯</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從演武大橋步行約 10 分鐘回到大學路</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「打渔船·老厦门本地菜·姜母鸭(沙坡尾地标美食店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>大学路</b><i>DA XUE LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">打渔船·老厦门本地菜·姜母鸭(沙坡尾地标美食店)</div><p>「打渔船」字樣招牌（細節未核實）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>在沙坡尾大學路上，近避風塢</p></div></div>
+    </div><p class="tip">💡 大眾點評「廈門大學福建菜熱門榜」第 4–5 名，本地人和遊客都會來，不算隱藏小店。若想吃得更家常：附近有「阿里元」家常閩南菜（UGC 說人均約 70，地址未核實）。</p>
+  </article>
+</section>
+<section class="day page-break" data-day="4" id="day4">
+  <div class="dayhead"><div class="dnum">DAY 4</div><div><p class="ddate">12/27（日） · 廈門</p><h3>老廈門：八市早市、南洋騎樓 CityWalk、鼓浪嶼安靜西側</h3>
+  <p class="free">🌿 留白時間：17:00 回酒店後整晚自由；騎樓散步途中隨意停留</p></div></div>
+  
+  <article class="card no-break" id="X04">
+    <header class="ch"><span class="time">07:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>第八市場（八市）・開禾路／營平市場</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E7%AC%AC%E5%85%AB%E5%B8%82%E5%9C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>營平市場（內場）08:00–12:00、15:30–18:30；開禾路外市的攤位早上 6 點左右陸續營業，海鮮攤以上午為主 <a class="src" href="https://m.xm.bendibao.com/mip/79769.shtm">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需預約</dd></div><div><dt>地址</dt><dd>厦门市思明区开禾路44号（开禾路与担水巷交叉口一带）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code> <span class="muted">3號口（遊記資料，未經官方核實）</span></p><p>從酒店搭計程車約 10–15 分鐘（約 4–5 km），在開禾路口下車；或 1 號線「鎮海路站」步行約 8 分鐘（遊記說走 3 號口，官方未核實）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>地鐵 1 號線「镇海路」站 3 號口（遊記資料，未核實），或計程車到「开禾路口」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>开禾路</b><i>KAI HE LU</i></span><span class="roadsign"><b>担水巷</b><i>DAN SHUI XIANG</i></span><span class="roadsign"><b>营平路</b><i>YING PING LU</i></span><span class="roadsign"><b>古营路</b><i>GU YING LU</i></span><span class="roadsign"><b>开元路</b><i>KAI YUAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">第八市场(八市)</div><p>騎樓下的露天馬路市場，地面濕；開禾路口有「第八市场」牌坊/指示</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>外市沿開禾路一路到開元路；十字形的營平市場在裡面。阿杰五香在開禾路與擔水巷交口</p></div></div>
+    </div><p class="tip">💡 清晨到午前最好逛，攤位最齊、人最少。週日早上本地人也很多。請穿防滑鞋。</p>
+  </article>
+  <article class="card no-break" id="X05">
+    <header class="ch"><span class="time">早餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>八市阿傑五香</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%85%AB%E5%B8%82%E9%98%BF%E6%9D%B0%E4%BA%94%E9%A6%99" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>07:00–21:00（Trip.com）；另一來源寫 6:00–18:00 <a class="src" href="https://tw.trip.com/restaurant/china/xiamen/detail/ba-shi-a-jie-11312796/">來源</a></dd></div><div><dt>休息日</dt><dd>未見公休資料</dd></div><div><dt>門票／價位</dt><dd>約 ¥3–5／條</dd></div><div><dt>預約</dt><dd>不需要，現場排隊</dd></div><div><dt>地址</dt><dd>厦门市思明区开禾路111号（开禾路与担水巷交口处）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">五香卷</td><td>五香卷</td><td>約 ¥3–4／條</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>在八市裡面步行</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「八市阿杰五香」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>开禾路</b><i>KAI HE LU</i></span><span class="roadsign"><b>担水巷</b><i>DAN SHUI XIANG</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">八市阿杰五香</div><p>小檔口前擺著炸五香推車，常有人排隊</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>開禾路和擔水巷的交口</p></div></div>
+    </div><p class="tip">💡 現炸的才好吃；只是點心，可以和友生沙茶麵一起吃。</p>
+  </article>
+  <article class="card no-break" id="X06">
+    <header class="ch"><span class="time">早餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>友生風味小吃（營平農產品市場店）—沙茶麵</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%8F%8B%E7%94%9F%E9%A3%8E%E5%91%B3%E5%B0%8F%E5%90%83%28%E8%90%A5%E5%B9%B3%E5%86%9C%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shachamian.jpg" alt="示意：海鮮沙茶麵（非友生本店照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：海鮮沙茶麵（非友生本店照片） · <a href="https://commons.wikimedia.org/wiki/File:20230131_Seafood_Shacha_Noodle.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>07:00–21:00（Trip.com） <a class="src" href="https://tw.trip.com/restaurant/china/xiamen/detail/yousheng-flavor-street-food-11309262/">來源</a></dd></div><div><dt>休息日</dt><dd>未見公休資料</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥20–28</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区开元路147号夏商营平农产品市场（另一來源寫开元路149号）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">沙茶面（加肉丸、猪肝、鱿鱼）</td><td>沙茶麵（加肉丸、豬肝、魷魚）</td><td>約 ¥20–30</td></tr><tr><td class="simp">猪脚面</td><td>豬腳麵</td><td>約 ¥20</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>從阿杰五香步行約 3 分鐘到開元路側入口</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「友生风味小吃(营平农产品市场店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>开元路</b><i>KAI YUAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">友生风味小吃(营平农产品市场店)</div><p>在八市入口旁，小凳子、露天座位</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>開禾路外市走到底接開元路，就在營平市場入口</p></div></div>
+    </div><p class="tip">💡 三聯生活週刊和本地遊記都推薦，大顆手打肉丸是特色；比中山路的店家更市井。</p>
+  </article>
+  <article class="card no-break" id="X07">
+    <header class="ch"><span class="time">選吃</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>八市惠林土筍凍（開禾路店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%85%AB%E5%B8%82%E6%83%A0%E6%9E%97%E5%9C%9F%E7%AC%8B%E5%86%BB%28%E5%BC%80%E7%A6%BE%E8%B7%AF%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/tusundong.jpg" alt="示意：廈門土筍凍" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：廈門土筍凍 · <a href="https://commons.wikimedia.org/wiki/File:Tusundong_Xiamen.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>未核實 <a class="src" href="https://you.ctrip.com/food/xiamen21/5161595-dianping.html">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥16</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区开禾路1号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">土笋冻</td><td>土筍凍</td><td>約 ¥10–15</td></tr><tr><td class="simp">白灼章鱼</td><td>白灼章魚</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>在八市開禾路口</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「八市惠林土笋冻(开禾路店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>开禾路</b><i>KAI HE LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">八市惠林土笋冻(开禾路店)</div><p>未核實</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>開禾路口（門牌 1 號）</p></div></div>
+    </div><p class="tip">💡 資料少（攜程 15 則評論），請把它當成順路試吃。比較有名的備案是「天河西門土筍凍」（斗西路33號，中山公園西門旁；大眾點評 4.2、人均 ¥28），但不在這條路線上。土筍凍是沙蟲做的凍，蘸蒜蓉醋、芥末吃。</p>
+  </article>
+  <article class="card no-break" id="X08">
+    <header class="ch"><span class="time">選項</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>八市阿強海鮮加工・大排檔（八市美食店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%85%AB%E5%B8%82%E9%98%BF%E5%BC%BA%E6%B5%B7%E9%B2%9C%E5%8A%A0%E5%B7%A5%C2%B7%E5%A4%A7%E6%8E%92%E6%A1%A3%28%E5%85%AB%E5%B8%82%E7%BE%8E%E9%A3%9F%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>未核實（大眾點評顯示午前「休息中」，海鮮加工店一般 10–11 點後才開） <a class="src" href="http://m.dianping.com/shop/729253274">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥69（大眾點評 4.4）</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区开禾路80号（大众点评顯示「开禾路80******」）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">蒜蓉粉丝蒸扇贝</td><td>蒜蓉粉絲蒸扇貝</td><td>時價</td></tr><tr><td class="simp">白灼虾</td><td>白灼蝦</td><td>時價</td></tr><tr><td class="simp">椒盐皮皮虾</td><td>椒鹽皮皮蝦</td><td>時價</td></tr><tr><td class="simp">海蛎煎</td><td>海蠣煎</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>在八市開禾路上</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「八市阿强海鲜加工·大排档(八市美食店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>开禾路</b><i>KAI HE LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">八市阿强海鲜加工·大排档(八市美食店)</div><p>開禾路外市整排都是「海鲜加工」招牌</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>開禾路口到開元路之間，有幾十家加工店</p></div></div>
+    </div><p class="tip">💡 有兩種吃法：(a) 在攤位自己挑海鮮，再拿去加工店（先講好加工費、按斤還是按隻計價）；(b) 直接在店裡點。遊記另外推薦「探味·私房菜海鮮加工（八市店）」（說是 28 年老店、上過廈門衛視；地址未查到）。容易有拉客和秤重糾紛，請先問清單價再下單。</p>
+  </article>
+  <article class="card no-break" id="X09">
+    <header class="ch"><span class="time">09:00</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>老城騎樓散步：開禾路→大同路→鎮邦路→升平路→海后路</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%90%8C%E8%B7%AF" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/datong_road.jpg" alt="實景：廈門大同路騎樓街" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：廈門大同路騎樓街 · <a href="https://commons.wikimedia.org/wiki/File:厦门·大同路_(14008542249).jpg">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/arcade_houses.jpg" alt="實景：大同路老騎樓立面" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：大同路老騎樓立面 · <a href="https://commons.wikimedia.org/wiki/File:大同路181618.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>街道全天開放；店家大多 9–10 點後才開 <a class="src" href="http://xm.fjsen.com/2026-02/10/content_32131487.htm">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区大同路/镇邦路/海后路一带</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>從八市開元路口步行接大同路（約 5 分鐘），全程平路約 2–2.5 km</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「开禾路」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>大同路</b><i>DA TONG LU</i></span><span class="roadsign"><b>镇邦路</b><i>ZHEN BANG LU</i></span><span class="roadsign"><b>横竹路</b><i>HENG ZHU LU</i></span><span class="roadsign"><b>升平路</b><i>SHENG PING LU</i></span><span class="roadsign"><b>海后路</b><i>HAI HOU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">开禾路</div><p>1920–30 年代的南洋騎樓「五腳基」，鎮邦路在 2026 年整修成一整排復古店招（傍晚約 18:00 亮燈）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>大同路與中山路平行（1926–29 年建，1958 年前是最繁華的商業街）；可看大同戲院、捷克百貨、永康成百貨、瑞豐參行舊址；從鎮邦路接升平路、海后路，最後到鷺江道海邊。中山路主街只穿過、不逛</p></div></div>
+    </div><p class="tip">💡 這條路線就是 2024 年廈門申遺 CityWalk 專家帶的走法（大同路→鎮邦路→惠通巷→升平路→海后路），比中山路主街安靜很多。週日上午人最少。</p>
+  </article>
+  <article class="card no-break" id="X10">
+    <header class="ch"><span class="time">午餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>佳味再添小吃店（大同路老店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E4%BD%B3%E5%91%B3%E5%86%8D%E6%B7%BB%E5%B0%8F%E5%90%83%E5%BA%97" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>10:00–22:00（只有一個來源，未核實） <a class="src" href="https://1dbr.nen2.com/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥20</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区大同路49号（大同路头）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">虾面</td><td>蝦麵</td><td>約 ¥10–15</td></tr><tr><td class="simp">芋包</td><td>芋包</td><td>約 ¥5</td></tr><tr><td class="simp">沙茶面</td><td>沙茶麵</td><td>約 ¥20</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>在大同路靠鷺江道那一端（大同路頭）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「佳味再添小吃店」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>大同路</b><i>DA TONG LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">佳味再添小吃店</div><p>店裡有玻璃櫃台、牆上貼店史</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>大同路靠海后路／鷺江道的起點</p></div></div>
+    </div><p class="tip">💡 這是 1947 年「吳再添」的原址，2004 年後改名佳味再添；吳家第三代現在在美湖路25號另開「吳再添小吃店」（07:00–21:30，不在路線上）。</p>
+  </article>
+  <article class="card no-break" id="X11">
+    <header class="ch"><span class="time">選吃</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>蓮歡海蠣煎（局口橫巷）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E8%8E%B2%E6%AC%A2%E6%B5%B7%E8%9B%8E%E7%85%8E%28%E5%B1%80%E5%8F%A3%E6%A8%AA%E5%B7%B7%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/oyster_omelette.jpg" alt="示意：海蠣煎（非蓮歡本店照片）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：海蠣煎（非蓮歡本店照片） · <a href="https://commons.wikimedia.org/wiki/File:Oyster_omelette.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>10:30–24:00（Trip.com）；百度百科寫 11:00–次日 01:00 <a class="src" href="https://www.amap.com/place/B02500S0HE">來源</a></dd></div><div><dt>休息日</dt><dd>未見公休資料</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥20–29</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区局口街局口横巷6号（近思明南路）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">海蛎煎</td><td>海蠣煎</td><td>約 ¥20–25</td></tr><tr><td class="simp">春卷</td><td>春捲</td><td>未核實</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>從大同路／中山路之間轉進局口街，步行約 5 分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「莲欢海蛎煎(局口横巷)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>局口街</b><i>JU KOU JIE</i></span><span class="roadsign"><b>局口横巷</b><i>JU KOU HENG XIANG</i></span><span class="roadsign"><b>思明南路</b><i>SI MING NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">莲欢海蛎煎(局口横巷)</div><p>白色招牌寫「莲欢海蛎煎」；同一條巷子前面還有另一家海蠣煎，不要走錯</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>進局口橫巷後注意右手邊</p></div></div>
+    </div><p class="tip">💡 1982 年開業，從推車做起；大眾點評「廈門春捲菜品榜」第 1。海蠣比台灣蚵仔煎多、粉漿少。10:30 一開門就去，人最少。</p>
+  </article>
+  <article class="card no-break" id="X12">
+    <header class="ch"><span class="time">選吃</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>黃則和花生湯店（中山路總店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E9%BB%84%E5%88%99%E5%92%8C%E8%8A%B1%E7%94%9F%E6%B1%A4%E5%BA%97%28%E4%B8%AD%E5%B1%B1%E8%B7%AF%E6%80%BB%E5%BA%97%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/huangzehe.jpg" alt="實景：黃則和花生湯店門面，認明「黄则和花生汤」紅底金字招牌" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：黃則和花生湯店門面，認明「黄则和花生汤」紅底金字招牌 · <a href="https://commons.wikimedia.org/wiki/File:Huang_Zehe_peanut_soup.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>07:30–22:00（Trip.com）；途牛的舊資料寫 08:00–12:00、14:00–18:00 <a class="src" href="https://tw.trip.com/restaurant/china/xiamen/detail/ze-he-huang-peanut-soup-shop-354526/">來源</a></dd></div><div><dt>休息日</dt><dd>未見公休資料</dd></div><div><dt>門票／價位</dt><dd>花生湯約 ¥5–8；人均約 ¥20</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区中山路22-24号（肯德基对面）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">花生汤</td><td>花生湯</td><td>約 ¥5–6</td></tr><tr><td class="simp">鸡蛋花生汤</td><td>雞蛋花生湯</td><td>約 ¥8</td></tr><tr><td class="simp">油条</td><td>油條</td><td>約 ¥2–3</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#E56849">1號線</span> <code class="stcode">镇海路</code></p><p>在海后路／鷺江道這一端的中山路口，步行 2 分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「黄则和花生汤店(中山路总店)」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>中山路</b><i>ZHONG SHAN LU</i></span><span class="roadsign"><b>鹭江道</b><i>LU JIANG DAO</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">黄则和花生汤店(中山路总店)</div><p>中華老字號招牌；中山路口、肯德基對面</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>中山路靠海那一端的路口；要先到收銀台儲值店卡（押金約 ¥10），再拿卡到餐檯點餐</p></div></div>
+    </div><p class="tip">💡 1945 年開業，花生湯製作技藝在 2024 年列為區級非遺。但店在中山路觀光動線上，在地人評價兩極；只在散步收尾時順路喝一碗即可。</p>
+  </article>
+  <article class="card no-break" id="X13">
+    <header class="ch"><span class="time">12:40</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>東渡郵輪中心廈鼓碼頭 → 鼓浪嶼內厝澳碼頭（旅遊客運航線）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%9B%BD%E9%99%85%E9%82%AE%E8%BD%AE%E4%B8%AD%E5%BF%83%E5%8E%A6%E9%BC%93%E7%A0%81%E5%A4%B4" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/gulangyu_ferry.jpg" alt="實景：廈鼓航線渡輪與鼓浪嶼" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：廈鼓航線渡輪與鼓浪嶼 · <a href="https://commons.wikimedia.org/wiki/File:Gulangyu_-_Neicuo&#x27;ao_-_DSCF9331.JPG">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>東渡→內厝澳每小時 :10 開船，08:10–17:10；內厝澳→東渡每小時 :40，07:40–17:40；航程約 20 分鐘 <a class="src" href="https://m.xmferry.com/wx/hb/yk/31704.htm">來源</a></dd></div><div><dt>休息日</dt><dd>遇颱風／大霧停航</dd></div><div><dt>門票／價位</dt><dd>普通船 ¥35／人（往返）；精品船 ¥80</dd></div><div><dt>預約</dt><dd>一定要先在線上實名預訂：微信／支付寶小程式「嶼見廈門」或廈門輪渡官網；碼頭不賣遊客散票。官方媒體（央廣 2024）說可提前 10 天訂，部分 2026 文章說 15 天——建議 12/12 起每天查，一開放就訂。台胞證可以實名，但小程式註明「限境內使用」，可能需要大陸手機號或網路（未核實）。2026/1/1 起一個帳號最多 10 張未使用船票。往返票的回程不限船型和班次</dd></div><div><dt>地址</dt><dd>厦门市湖里区东港北路2号 厦门国际邮轮中心（厦鼓码头）— 地址取自一般資料，未逐字核實</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">無直達地鐵（BRT／公車另查）</span></p><p>從鷺江道搭計程車到東渡郵輪中心約 10–15 分鐘（約 4 km）；建議 13:10 那班，開船前 30 分鐘到</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>東渡郵輪中心：跟著「厦鼓码头 / 鼓浪屿」指標，刷台胞證／二維碼過閘</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>东港北路</b><i>DONG GANG BEI LU</i></span><span class="roadsign"><b>湖滨西路</b><i>HU BIN XI LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">东渡客运码头（厦门国际邮轮中心厦鼓码头）</div><p>「厦门国际邮轮中心 厦鼓码头」</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>跟著「厦鼓码头 / 鼓浪屿」指示走，刷證件／二維碼過閘</p></div></div>
+    </div><p class="tip">💡 在內厝澳上岸，可以完全避開三丘田／鋼琴碼頭→龍頭路的人潮。首次來大陸、而且從廈門口岸入境的台胞，可以領「首來台胞廈門服務包」：7 天內免費搭廈鼓遊客航線（仍建議先訂位）。</p>
+  </article>
+  <article class="card no-break" id="X14">
+    <header class="ch"><span class="time">13:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>鼓浪嶼西側安靜路線：內厝澳路→種德宮→工藝美院舊址→筆山路</h4><a class="btn amap" href="https://www.amap.com/search?query=%E9%BC%93%E6%B5%AA%E5%B1%BF%E7%A7%8D%E5%BE%B7%E5%AE%AB" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/zhongdegong.jpg" alt="實景：鼓浪嶼內厝澳種德宮" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：鼓浪嶼內厝澳種德宮 · <a href="https://commons.wikimedia.org/wiki/File:鼓浪屿种德宫.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>島嶼全天開放；種德宮等廟宇開放時間未核實 <a class="src" href="https://xiamen.manmankan.com/lvyou/11849/">來源</a></dd></div><div><dt>門票／價位</dt><dd>上島免費（日光岩、菽莊花園等核心景點要另外買票，本路線不進去）</dd></div><div><dt>預約</dt><dd>只需要船票</dd></div><div><dt>地址</dt><dd>内厝澳码头：厦门市思明区鼓浪屿康泰路159号；种德宫：鼓浪屿内厝澳路373号</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>搭船約 20 分鐘，從內厝澳碼頭上岸後全程步行（有坡道、階梯）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>在「内厝澳码头」下船（不是三丘田／鋼琴碼頭），上岸往康泰路</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>康泰路</b><i>KANG TAI LU</i></span><span class="roadsign"><b>内厝澳路</b><i>NEI CUO AO LU</i></span><span class="roadsign"><b>鸡山路</b><i>JI SHAN LU</i></span><span class="roadsign"><b>笔山路</b><i>BI SHAN LU</i></span><span class="roadsign"><b>安海路</b><i>AN HAI LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">鼓浪屿 内厝澳码头</div><p>紅磚洋樓、老鐵門、三角梅；種德宮是閩南紅磚廟（明代始建，後來遷建）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>建議路線（官方媒體推薦的「本島生活路線」前半段）：內厝澳碼頭→福州大學工藝美院鼓浪嶼舊址→康泰路→內厝澳路→種德宮→筆架山→筆山路別墅群（林屋、春草堂一帶）→回內厝澳碼頭。全程約 2–3 小時，不走龍頭路</p></div></div>
+    </div><p class="tip">💡 這一側是居民區，就算週日也明顯比東側安靜。16:40 從內厝澳搭回程（17:40 是末班）。不建議 12 月的週日改走華新路＋植物園：鼓浪嶼西側安靜，又剛好配合平地的舊城散步。若船票訂不到，備案是「華新路華僑新村老別墅（1957 年起建 31 棟）＋公園西路」，不用預約。</p>
+  </article>
+  <article class="card no-break" id="X15">
+    <header class="ch"><span class="time">選吃</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>葉氏麻糍（鼓浪嶼）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%8F%B6%E6%B0%8F%E9%BA%BB%E7%B3%8D" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>10:00–19:00（攜程） <a class="src" href="https://gs.ctrip.com/html5/you/foods/fooddetail/21/319760.html">來源</a></dd></div><div><dt>休息日</dt><dd>未見公休資料</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥14</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区鼓浪屿龙头路145-147号（新华书店三岔路口）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">麻糍（花生/芝麻）</td><td>麻糍（花生／芝麻）</td><td>約 ¥2–3／個（舊資料寫 ¥1，已漲價，未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>在龍頭路，從筆山路下坡約 10 分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「叶氏麻糍」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>龙头路</b><i>LONG TOU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">叶氏麻糍</div><p>小推車攤，是島上唯一經政府許可臨街擺攤的店；中華老字號（1932 年創立）</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>龍頭路往音樂廳方向的三岔路口</p></div></div>
+    </div><p class="tip">💡 在龍頭路這個熱門區。只有回程改從三丘田出島時才順路。</p>
+  </article>
+</section>
+<section class="day page-break" data-day="5" id="day5">
+  <div class="dayhead"><div class="dnum">DAY 5</div><div><p class="ddate">12/28（一） · 廈門 → 台北</p><h3>慢早晨：沙茶麵、南普陀、廈大校園，傍晚飛回松山</h3>
+  <p class="free">🌿 留白時間：12:00–13:30 大學路咖啡、回酒店取行李</p></div></div>
+  
+  <article class="card no-break" id="X16">
+    <header class="ch"><span class="time">07:30 早餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>烏糖沙茶麵（民族路店）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E4%B9%8C%E7%B3%96%E6%B2%99%E8%8C%B6%E9%9D%A2" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/shacha_shop.jpg" alt="示意：廈門沙茶麵老店門面（四里沙茶麵，非烏糖）" onerror="this.closest('figure').style.display='none'"></div><figcaption>示意：廈門沙茶麵老店門面（四里沙茶麵，非烏糖） · <a href="https://commons.wikimedia.org/wiki/File:Sili_Shacha_Noodle.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>05:30–14:30（Trip.com；也有資料寫 6:00–14:00），賣完就收 <a class="src" href="https://www.amap.com/place/B0I1VU0Q9H">來源</a></dd></div><div><dt>休息日</dt><dd>未見固定公休資料</dd></div><div><dt>門票／價位</dt><dd>人均約 ¥40+（看加料）</dd></div><div><dt>預約</dt><dd>不需要；早上 10 點前到比較不用排</dd></div><div><dt>地址</dt><dd>厦门市思明区民族路76号（高德）／民族路78号（Trip.com）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">沙茶面（加料：鱿鱼、虾、大肠、猪肝、海蛎）</td><td>沙茶麵（加料：魷魚、蝦、大腸、豬肝、海蠣）</td><td>約 ¥30–50（自選加料，未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從酒店步行約 5 分鐘（民族路在沙坡尾北側）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「乌糖沙茶面」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>民族路</b><i>MIN ZU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">乌糖沙茶面</div><p>騎樓下小板凳座位的老店；店名常被誤寫成「烏堂」</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>沿民族路往北，在亞海麵線糊（177 號）的另一側；電話 0592-2041658</p></div></div>
+    </div><p class="tip">💡 在地人口中「最跩」的沙茶麵：只做半天、不開分店。週一早上人比週末少。</p>
+  </article>
+  <article class="card no-break" id="X17">
+    <header class="ch"><span class="time">替代早餐</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>亞海麵線糊</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E4%BA%9A%E6%B5%B7%E9%9D%A2%E7%BA%BF%E7%B3%8A" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>06:00–13:00（Trip.com） <a class="src" href="https://uk.trip.com/restaurant/china/xiamen/detail/restaurant-345832/">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>約 ¥10–20</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区民族路177号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">面线糊（加大肠、猪肝、醋肉）</td><td>麵線糊（加大腸、豬肝、醋肉）</td><td>約 ¥10–18</td></tr><tr><td class="simp">油条</td><td>油條</td><td>約 ¥2</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從酒店步行約 5–8 分鐘</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「亚海面线糊」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>民族路</b><i>MIN ZU LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">亚海面线糊</div><p>街坊小店</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>沙坡尾北側的民族路</p></div></div>
+    </div><p class="tip">💡 大眾點評「廈門麵線糊菜品榜」第 8；曾被報導為《舌尖3》拍攝的麵線糊店（閩南網）。量不大，可以吃完再去烏糖。</p>
+  </article>
+  <article class="card no-break" id="X18">
+    <header class="ch"><span class="time">08:15</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>南普陀寺</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E5%8D%97%E6%99%AE%E9%99%80%E5%AF%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n1"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/nanputuo.jpg" alt="實景：南普陀寺" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：南普陀寺 · <a href="https://commons.wikimedia.org/wiki/File:Nanputuo_Temple,_Xiamen.jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>寺院 08:00–18:00；後山 08:00–16:00 <a class="src" href="https://news.qq.com/rain/a/20260922A04Z6O00">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>必須預約：微信小程式「南普陀寺预约服务平台」是唯一官方渠道，免費，最多可提前 4 天（12/24 起可約 12/28），每小時一個時段。入寺要帶本人證件原件核驗，不再接受只出示二維碼（台胞證應屬「其他有效身份證件」）。60 歲以上可直接入寺</dd></div><div><dt>地址</dt><dd>厦门市思明区思明南路515号</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">南普陀素饼</td><td>南普陀素餅（伴手禮）</td><td>約 ¥20–40／盒（未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從沙坡尾搭計程車約 5 分鐘，或步行約 20 分鐘（沿思明南路）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>東山門進、西山門出；入寺要出示預約碼＋台胞證原件</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>思明南路</b><i>SI MING NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">南普陀寺</div><p>紅牆、黃瓦、重簷寺廟；背後是五老峰</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>東山門進、西山門出。出西山門往南走，就接到廈大／演武路方向</p></div></div>
+    </div><p class="tip">💡 週一 8 點一開門就到，人最少。若想從高處看廈大，可以爬後山（16:00 關），但時間要抓緊。</p>
+  </article>
+  <article class="card no-break" id="X19">
+    <header class="ch"><span class="time">09:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>頂澳仔貓街</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%20%E9%A1%B6%E6%BE%B3%E4%BB%94%E7%8C%AB%E8%A1%97" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <p class="nophoto">📷 Wikimedia Commons 無可靠授權實景照：抵達前請在高德地圖點開地點看「实景」照片核對門面。</p>
+    <dl class="info"><div><dt>營業時間</dt><dd>街道全天開放；店家約 10:00 後開門 <a class="src" href="https://m.tuniu.com/g1817574/guide-0-0/">來源</a></dd></div><div><dt>門票／價位</dt><dd>免費（貓咪博物館另外收費）</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区顶澳仔路（近思明南路、厦门理工学院思明校区旁）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">四果汤（猫街茶果）</td><td>四果湯（貓街茶果）</td><td>約 ¥10–15（未核實）</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從南普陀步行約 10 分鐘（往思明南路北邊）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「顶澳仔猫街」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>顶澳仔路</b><i>DING AO ZAI LU</i></span><span class="roadsign"><b>思明南路</b><i>SI MING NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">顶澳仔猫街</div><p>約 200 m 的小街，牆上有貓咪壁畫、貓爪路牌，中間有一座小街心公園</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>街心公園旁那棟 6 樓建築的一樓就是貓咪博物館</p></div></div>
+    </div><p class="tip">💡 其實是學生街，可能「一隻貓都沒有」，停留 20–30 分鐘就好。週一早上很安靜，若時間不夠可以跳過。</p>
+  </article>
+  <article class="card no-break" id="X20">
+    <header class="ch"><span class="time">10:30</span><span class="badge" style="background:#0f2a44">景點</span>
+      <h4>廈門大學（思明校區）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%28%E6%80%9D%E6%98%8E%E6%A0%A1%E5%8C%BA%29" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    <div class="phs n2"><figure class="ph"><div class="ratio"><img loading="lazy" src="images/xmu_jiannan.jpg" alt="實景：廈大建南大會堂" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：廈大建南大會堂 · <a href="https://commons.wikimedia.org/wiki/File:Jiannan_Auditorium_of_XMU.JPG">Wikimedia Commons</a></figcaption></figure><figure class="ph"><div class="ratio"><img loading="lazy" src="images/xmu_furong.jpg" alt="實景：芙蓉湖與嘉庚樓群" onerror="this.closest('figure').style.display='none'"></div><figcaption>實景：芙蓉湖與嘉庚樓群 · <a href="https://commons.wikimedia.org/wiki/File:Xiamen_University_07076-Xiamen_(48814339602).jpg">Wikimedia Commons</a></figcaption></figure></div>
+    <dl class="info"><div><dt>營業時間</dt><dd>2026 年 1 月 20 日起的新制：工作日分三個入校時段 10:30–11:30（800 人）、13:00–14:00（800 人）、16:30–17:30（400 人）；週末／寒暑假 08:30–12:00、13:00–16:00、16:30–17:30 <a class="src" href="https://news.qq.com/rain/a/20260117A02YX100">來源</a></dd></div><div><dt>休息日</dt><dd>遇調課、重大活動或天氣因素會暫停開放</dd></div><div><dt>門票／價位</dt><dd>免費</dd></div><div><dt>預約</dt><dd>「預約＋搖號」制：唯一渠道是微信公眾號「厦门大学访客预约系统」或小程式「参观厦大」。12/25 00:00 開放登記 12/28 的時段（提前 3 個自然日）；前一天截止與開獎時間在 2026 年改過兩次（1 月版：16:00 截止、20:00 公布；5 月版：15:00 截止、16:00 公布），以系統為準。不保證抽得到。主預約人限成年人，最多帶 6 名同行者</dd></div><div><dt>地址</dt><dd>厦门市思明区思明南路422号；访客入口：厦大访客中心（新南门，演武路地下停车场旁）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從頂澳仔貓街搭計程車約 5 分鐘，或步行約 20 分鐘，到演武路的訪客中心（新南門）</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>只能從「厦门大学访客中心」（新南門，演武路地下停車場旁）入校；台胞證走人工核驗工作台</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>演武路</b><i>YAN WU LU</i></span><span class="roadsign"><b>思明南路</b><i>SI MING NAN LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门大学(思明校区)</div><p>「厦门大学访客中心」，在演武路地下停車場</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>只能走訪客中心的專用通道。持台胞證的人無法用閘機自動核驗，要到訪客中心工作台人工核驗，請 10:30 準時到並預留排隊時間。參觀範圍：建南大會堂、芙蓉湖、芙蓉隧道（禁止長時間停留拍照）</p></div></div>
+    </div><p class="tip">💡 12/28（週一）是學期中（廈大寒假通常 1 月中才開始），所以適用工作日的少量名額；選 10:30–11:30 這個時段，出校後還來得及回酒店退房。沒抽中的備案：沿演武路、白城沙灘看校園外圍，或把時間留給大學路喝咖啡。</p>
+  </article>
+  <article class="card no-break" id="X21">
+    <header class="ch"><span class="time">12:00</span><span class="badge" style="background:#b5532f">美食</span>
+      <h4>大學路咖啡＆小吃（郵局咖啡／巷口麻糍）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E8%B7%AF%E9%82%AE%E5%B1%80%E5%92%96%E5%95%A1" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>郵局咖啡 9:00–20:00（舊資料）；巷口麻糍是推車，時間未核實 <a class="src" href="https://www.dawusu.com/zatan/3719.html">來源</a></dd></div><div><dt>休息日</dt><dd>未核實</dd></div><div><dt>門票／價位</dt><dd>咖啡約 ¥30–40；麻糍幾元</dd></div><div><dt>預約</dt><dd>不需要</dd></div><div><dt>地址</dt><dd>厦门市思明区大学路35号；大学路11号与15号巷口中间（厦港酒家旁）</dd></div></dl>
+    <table class="order"><thead><tr><th>菜單原文（指給店員看）</th><th>繁體</th><th>參考價</th></tr></thead><tbody><tr><td class="simp">手冲/拿铁</td><td>手沖／拿鐵</td><td>約 ¥30–40</td></tr><tr><td class="simp">麻糍</td><td>麻糍</td><td>約 ¥2–5</td></tr></tbody></table>
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#6b7280">🚕 滴滴／計程車／步行</span></p><p>從廈大訪客中心步行約 10 分鐘回沙坡尾</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「邮局咖啡 la poste cafe（大学路35号）」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="roadsign"><b>大学路</b><i>DA XUE LU</i></span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">邮局咖啡 la poste cafe（大学路35号）</div><p>郵局咖啡用郵筒、郵戳當裝飾；麻糍是手寫招牌的推車</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>大學路靠避風塢的那一段</p></div></div>
+    </div><p class="tip">💡 兩家的現況都未核實（資料多是 2019–2022 年）。花生湯在 D4 黃則和喝過了，這裡不重複。</p>
+  </article>
+  <article class="card no-break" id="X22">
+    <header class="ch"><span class="time">13:30 出發</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>⚠️ 廈門翔安國際機場（高崎機場預計 12/24 關閉）</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E7%BF%94%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>門票／價位</dt><dd>計程車估計約 ¥120–160（約 50–55 km，未核實）</dd></div><div><dt>地址</dt><dd>厦门市翔安区大嶝街道</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#00BFD3">3號線（機場段計畫 2026/12 開通，未核實）</span> <code class="stcode">翔安机场</code></p><p>從沙坡尾搭計程車／滴滴，經翔安隧道或翔安大橋，約 55–70 分鐘（估計，未核實）。地鐵 3 號線機場段計畫 2026 年 12 月和新機場同步開通，從廈門火車站到機場約 1 小時，但沙坡尾附近沒有可接駁的地鐵站</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>車到「出发」層，找「国际及港澳台」值機區</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="muted">—</span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门翔安国际机场</div><p>—</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>—</p></div></div>
+    </div><p class="tip">💡 非常重要：官方和上市公司公告都說翔安機場 2026 年底啟用、高崎同步關閉；民航華東局的計畫和維基百科都寫 12/24 晚轉場、12/25 啟用（截至 2026/10 仍是「預計」）。12/28 往台北的航班很可能從翔安起飛，不是 XMN 高崎。請負責航班的人核對機票上的機場，並保留 2.5 小時以上（新機場剛啟用的第 4 天，流程可能不順）。</p>
+  </article>
+  <article class="card no-break" id="t_flight_back">
+    <header class="ch"><span class="time">17:10</span><span class="badge" style="background:#1f6fb2">交通</span>
+      <h4>回程班機：廈航 MF881 → 台北松山</h4><a class="btn amap" href="https://www.amap.com/search?query=%E5%8E%A6%E9%97%A8%E7%BF%94%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA" target="_blank" rel="noopener">📍 高德地圖導航</a></header>
+    
+    <dl class="info"><div><dt>營業時間</dt><dd>12/28(一) 廈門 17:10 → 松山 18:45（每日；機場轉場後時刻可能微調，12 月中再確認）</dd></div><div><dt>預約</dt><dd>與去程一起訂「桃園去／松山回」多段票，或兩張單程。替代：立榮 B7512 12:35 → 松山 14:20（週一有班）</dd></div></dl>
+    
+    <div class="five">
+      <div class="el"><span class="ic">🚇</span><div><h5>交通方式與路線</h5><p><span class="pill" style="background:#0f2a44">✈ 航班</span> <code class="stcode">翔安 → TSA</code></p><p>見上一站：沙坡尾 13:30 出發往翔安機場</p></div></div>
+      <div class="el"><span class="ic">🚪</span><div><h5>下車點／入口指示關鍵字</h5><p>滴滴／高德目的地輸入：「厦门翔安国际机场」</p></div></div>
+      <div class="el"><span class="ic">🪧</span><div><h5>現場路牌核對（大陸藍底白字＋拼音）</h5><p><span class="muted">—</span></p></div></div>
+      <div class="el"><span class="ic">🏷️</span><div><h5>現場招牌原文（簡體）</h5><div class="signboard">厦门翔安国际机场</div><p>出發層指標：「出发 Departures」→「国际及港澳台 值机」</p></div></div>
+      <div class="el wide"><span class="ic">🚶</span><div><h5>步行動線與辨識提示</h5><p>兩岸航班走「国际及港澳台」區報到與出境；退稅（滿 ¥200）需在出境前辦理。</p></div></div>
+    </div><p class="tip">💡 新機場啟用第 4 天，動線不熟、可能排隊：起飛前 2.5 小時到。</p>
+  </article>
+</section>
+<section id="booking" class="sec page-break" data-day="0">
+  <h2>📅 預約與訂位清單 <small>Reservations</small></h2>
+  <table class="zebra"><thead><tr><th>項目</th><th>方式／連結</th><th>建議時機</th><th>備註</th></tr></thead><tbody><tr><td><b>機票 去程 AE991/CI991 TPE→XMN 12/24、回程 MF881 XMN→TSA 12/28</b></td><td>華航官網（多段）或廈航官網；或分兩張單程<br><a href="https://www.china-airlines.com/tw/zh">https://www.china-airlines.com/tw/zh</a> <a href="https://www.xiamenair.com/tw-tw/">https://www.xiamenair.com/tw-tw/</a></td><td>立即（台灣 12/25 連假需求高）</td><td>確認回程出發機場是否已改為翔安；時刻訂票時再確認</td></tr><tr><td><b>動車 廈門北→泉州 12/24（約 12:26 班次）</b></td><td>12306 App（台胞證註冊）或 Trip.com<br><a href="https://www.12306.cn/">https://www.12306.cn/</a></td><td>約 12/10 開售（預售期 15 天）</td><td>站名選『泉州』；刷台胞證進站</td></tr><tr><td><b>泉州濱江皇冠假日酒店 Crowne Plaza Quanzhou Riverview</b></td><td>IHG 官網/App（會員價）<br><a href="https://www.ihg.com/crowneplaza/hotels/tw/zh/quanzhou/jjnrq/hoteldetail">https://www.ihg.com/crowneplaza/hotels/tw/zh/quanzhou/jjnrq/hoteldetail</a></td><td>儘早</td><td>鯉城區江濱南路 2233 號；電話 +86-595-36018888；reservations@cpquanzhou.com</td></tr><tr><td><b>亞朵酒店（廈門段，若選用）</b></td><td>亞朵官網或『亞朵』App/微信小程序<br><a href="https://www.yaduo.com/">https://www.yaduo.com/</a></td><td>儘早（12/26–27 週末）</td><td>需台胞證入住登記【官網網址未逐一驗證】</td></tr><tr><td><b>包車 12/26 泉州→五店市→梧林→廈門沙坡尾</b></td><td>攜程/Klook 包車或酒店禮賓<br><a href="https://www.trip.com/">https://www.trip.com/</a></td><td>出發前 1–2 週</td><td>確認行李空間、含過路停車費</td></tr><tr><td><b>鼓浪嶼船票</b></td><td>『屿见厦门』微信/支付寶小程序（官方唯一平台）；台胞選『其他證件』輸入台胞證號<br><a href="https://www.xmferry.com/">https://www.xmferry.com/</a></td><td>可預購 15 天內；週末務必提前</td><td>東渡郵輪中心碼頭→三丘田/內厝澳 普通船 RMB 35、精品船 RMB 80（含往返）；刷台胞證檢票</td></tr><tr><td><b>廈門大學參觀（思明校區）</b></td><td>微信公眾號『厦门大学访客预约系统』或小程序『参观厦大』登記 → 搖號<br><a href="https://baowei.xmu.edu.cn/">https://baowei.xmu.edu.cn/</a></td><td>提前 3 天 00:00 開放、15:00 截止次日、16:00 公布結果</td><td>台胞證持有人須到新南門訪客中心人工核驗；大型活動日會暫停預約</td></tr><tr><td><b>eSIM / 漫遊</b></td><td>購買免翻牆漫遊型中國 eSIM 或電信漫遊<br></td><td>出發前</td><td>確認手機支援 eSIM</td></tr><tr><td><b>支付寶/微信支付綁卡</b></td><td>App 內用台胞證實名、綁台灣信用卡<br><a href="https://www.alipay.com/">https://www.alipay.com/</a></td><td>出發前 1 週</td><td>先小額測試</td></tr><tr><td><b>好廳・閩南小館（12/24 平安夜晚餐）</b></td><td>大眾點評訂位或電話<br></td><td>提前 1–2 週</td><td>米其林必比登；巷內小院座位少</td></tr><tr><td><b>忠記鹽燒番鴨（12/25 晚餐）</b></td><td>電話 0595-22775083<br></td><td>提前 2–3 天</td><td>鹽燒需慢煲，先訂可免等</td></tr><tr><td><b>南普陀寺入寺預約（12/28）</b></td><td>微信小程序「南普陀寺预约服务平台」<br></td><td>12/24 起（最多提前 4 天）</td><td>免費；帶台胞證原件</td></tr><tr><td><b>開元寺弘一法師紀念館（選）</b></td><td>「泉州大开元寺」公眾號／小程序<br></td><td>前 1 天</td><td>寺院本身免費免預約</td></tr></tbody></table>
+</section>
+<section id="food" class="sec page-break" data-day="0">
+  <h2>🍜 閩南美食圖鑑與點餐指南 <small>Food Guide</small></h2>
+  <table class="zebra"><thead><tr><th>美食（現場簡體）</th><th>特色</th><th>本行程在哪吃</th><th>點餐話術（直接念）</th></tr></thead><tbody><tr><td><b>麵線糊</b><br><span class="signboard sm">面线糊</span></td><td>泉州早餐之王：細麵線熬成糊，加醋肉、大腸、豬肝、油條。</td><td>羅記（D2）、亞海（D5）</td><td class="simp">「一碗面线糊，加醋肉跟大肠，油条剪进去」</td></tr><tr><td><b>沙茶麵</b><br><span class="signboard sm">沙茶面</span></td><td>廈門代表麵食，沙茶湯頭濃郁，按自選配料計價。</td><td>友生（D4）、烏糖（D5）</td><td class="simp">「沙茶面，加鱿鱼、猪肝、虾」</td></tr><tr><td><b>薑母鴨（鹽燒）</b><br><span class="signboard sm">盐烧姜母鸭</span></td><td>泉州三派之一：砂鍋加鹽沙慢煲 3–4 小時，冬天最對味。</td><td>忠記（D2）、打漁船（D3）</td><td class="simp">「两个人，要半只可以吗？」</td></tr><tr><td><b>泉州牛排三件套</b><br><span class="signboard sm">牛排＋牛肉羹＋咸饭</span></td><td>不是西式牛排，是藥膳香的燉牛肋排，配牛肉羹和鹹飯。</td><td>好成財（D1）</td><td class="simp">「A套餐，两份」</td></tr><tr><td><b>燒肉粽</b><br><span class="signboard sm">烧肉粽</span></td><td>閩南肉粽，淋甜辣醬、花生醬、蒜蓉。</td><td>侯阿婆（D2）</td><td class="simp">「烧肉粽两个，酱料都要」</td></tr><tr><td><b>潤餅</b><br><span class="signboard sm">润饼</span></td><td>薄皮捲胡蘿蔔絲、高麗菜、豆乾、海蠣與花生糖粉，冬至時節應景。</td><td>亞佛（D2）</td><td class="simp">「润饼两卷，要加花生粉」</td></tr><tr><td><b>土筍凍</b><br><span class="signboard sm">土笋冻</span></td><td>沙蟲熬成的晶凍，蘸蒜蓉醋、芥末。</td><td>八市惠林（D4）</td><td class="simp">「土笋冻一份，酱料多一点」</td></tr><tr><td><b>海蠣煎</b><br><span class="signboard sm">海蛎煎</span></td><td>海蠣多、粉漿少，比台灣蚵仔煎更「料多」。</td><td>蓮歡（D4）</td><td class="simp">「海蛎煎一份，辣酱另放」</td></tr><tr><td><b>花生湯</b><br><span class="signboard sm">花生汤</span></td><td>花生燉到入口即化，配油條或加蛋。</td><td>黃則和（D4）</td><td class="simp">「鸡蛋花生汤一碗」（先儲值店卡）</td></tr><tr><td><b>石花膏／四果湯</b><br><span class="signboard sm">石花膏／四果汤</span></td><td>百年老字號甜品；12 月偏涼可請店家少冰。</td><td>秉正堂（D1）</td><td class="simp">「石花膏，少冰」</td></tr></tbody></table>
+  <div class="box"><h4>在地用餐文化</h4><ul>
+   <li>小吃店多是「先點單付款、拿號碼取餐」，掃支付寶／微信付款最快。</li>
+   <li>八市海鮮加工：可在攤位自己挑海鮮再拿去加工店（先講好加工費、按斤或按隻計價），也可直接在店裡點。<b>下單前一定先問清楚單價</b>，避免秤重糾紛。</li>
+   <li>不用給小費；「打包」＝外帶，「微辣／不要辣」＝小辣／不辣。</li>
+   <li>米其林必比登小館（好廳、羅記、忠記）多是在地老店，人均 ¥20–100。</li>
+  </ul></div>
+</section>
+<section id="practical" class="sec page-break" data-day="0">
+  <h2>🧳 行前實用須知 <small>Practical Info</small></h2>
+  <div class="grid2"><div class="box"><h4>證件</h4><ul><li><b>卡式台胞證：</b>5 年有效，需在效期內（建議至少涵蓋回程日）；自 2015/7/1 起取消簽注，持有效台胞證即可入境</li><li><b>忘記帶/過期：</b>可於高崎/翔安等口岸申辦『一次有效台胞證』（自 2025/11/20 起全中國 100 個口岸），效期 3 個月；需台灣護照＋身分證</li><li><b>落地簽：</b>有有效卡式台胞證『不需要』落地簽</li><li><b>入境卡：</b>外國人入境卡規定不適用台胞；台胞走『中國公民/港澳台』通道、出境早已免填。法規條文仍寫『填交登記卡』，實務上近年多數口岸台胞免填（未核實，現場有卡就填）</li><li><b>台灣護照：</b>出境台灣需用，入境大陸出示台胞證</li></ul></div><div class="box"><h4>支付</h4><ul><li><b>支付寶/微信支付：</b>可用台胞證實名認證、綁定台灣 Visa/Master/JCB 信用卡；外卡單筆上限 USD 5,000、年累計 USD 50,000；單筆 ≤ RMB 200 免手續費，超過部分收 3%</li><li><b>建議：</b>出發前在台灣先完成註冊與綁卡、各準備一張備用卡；大額（酒店、包車）盡量直接刷卡</li><li><b>滴滴：</b>DiDi 國際版 App 支援境外手機號；或用支付寶『出行』內的滴滴小程序叫車（最簡單）</li></ul></div><div class="box"><h4>現金</h4>多數場合掃碼即可，建議兩人共備 RMB 1,000–2,000 現金以防小攤/斷網</div><div class="box"><h4>網路</h4>Google、LINE、FB、IG、YouTube 在大陸被封鎖；建議購買『漫遊型免翻牆 eSIM』或開通台灣電信漫遊（漫遊流量走境外節點可直接用）；自行安裝 VPN 在大陸屬法律灰區，避免使用/宣傳</div><div class="box"><h4>天氣 12月下旬</h4>廈門平均 12–20°C、泉州約 10–19°C；12 月雨天約 5 天、多陰天，東北季風海邊風大；洋蔥式穿搭：長袖+薄毛衣+防風外套，備摺疊傘</div><div class="box"><h4>插座電壓</h4>220V / 50Hz；插座為 A（雙扁）、I（八字三腳）、C 型；台灣雙扁插頭可直接插，但電器須支援 100–240V（手機/筆電充電器大多可），吹風機等請確認</div><div class="box"><h4>離境退稅</h4><ul><li><b>門檻：</b>同一境外旅客同日同一退稅商店購物滿 RMB 200（2025/4 起由 500 下調）</li><li><b>適用：</b>境外旅客含港澳台居民（在大陸連續居住未滿 183 天）→ 台胞適用</li><li><b>退稅率：</b>約 9–11%（扣代理手續費後實拿較少）</li><li><b>即買即退：</b>福建全省及深圳口岸互認，可在店內先領現、離境時於機場退稅/海關確認；需保留購物發票與退稅申請單、商品未使用</li><li><b>機場：</b>高崎原有離境退稅點；翔安新機場應設點（未核實）</li></ul></div><div class="box"><h4>法規禮儀</h4><ul><li>不需給小費</li><li>室內公共場所、公共交通工具、車站與月台禁菸，動車上吸菸會被罰款並影響乘車信用</li><li>無人機：機場周邊淨空區嚴禁、須實名登記；鼓浪嶼、廈門大學與軍事管制區勿飛，建議不攜帶</li><li>住宿、搭動車、部分博物館/景區（如廈大、鼓浪嶼船票）需台胞證實名，原件隨身</li><li>避免拍攝軍事設施、勿參與政治集會；尊重寺廟（開元寺等）禮儀</li></ul></div><div class="box"><h4>假期</h4><ul><li><b>12/24–12/28：</b>大陸非法定假日；12/25 聖誕節不放假；12/26(六)–27(日) 為一般週末，鼓浪嶼、沙坡尾、梧林人潮多，建議提早預約</li><li><b>2027 元旦：</b>預計 2027/1/1(五)–1/3(日) 放假 3 天、不調休（國務院正式通知通常 11 月發布，截至 2026/10 未見官方公告）（未核實）</li><li><b>台灣端：</b>12/25(五) 台灣行憲紀念日放假，機位緊</li></ul></div></div>
+</section>
+<section id="sources" class="sec" data-day="0">
+  <h2>資料來源與照片授權</h2>
+  <p class="muted">查核日期 2026/10/25。照片全部取自 Wikimedia Commons（依各檔案頁 CC 授權，點圖說連結可見作者與授權）；標「示意」者為同類菜餚，非該店本身。</p>
+  <ul class="srcs"><li><a href="https://www.tsa.gov.tw/flights/international/regular（松山冬季定期班表，B7511/B7512/MF881/MF882）">https://www.tsa.gov.tw/flights/international/regular（松山冬季定期班表，B7511/B7512/MF881/MF882）</a></li><li><a href="https://flights.ctrip.com/International/schedule/tpe-xmn.html">https://flights.ctrip.com/International/schedule/tpe-xmn.html</a></li><li><a href="https://flight-status.com/route/tpe-to-xmn/">https://flight-status.com/route/tpe-to-xmn/</a></li><li><a href="https://flight-status.com/route/xmn-to-tpe/">https://flight-status.com/route/xmn-to-tpe/</a></li><li><a href="https://pdf.dfcfw.com/pdf/H2_AN202609301830055495_1.pdf（廈門空港公告：翔安 2026 年底投用、高崎同步關閉）">https://pdf.dfcfw.com/pdf/H2_AN202609301830055495_1.pdf（廈門空港公告：翔安 2026 年底投用、高崎同步關閉）</a></li><li><a href="https://finance.sina.com.cn/wm/2026-03-28/doc-inhsqtni7004408.shtml（12/24 夜轉場、12/25 翔安投用之說法）">https://finance.sina.com.cn/wm/2026-03-28/doc-inhsqtni7004408.shtml（12/24 夜轉場、12/25 翔安投用之說法）</a></li><li><a href="https://en.wikipedia.org/wiki/Xiamen_Xiang%27an_International_Airport">https://en.wikipedia.org/wiki/Xiamen_Xiang%27an_International_Airport</a></li><li><a href="https://zh.wikipedia.org/wiki/%E5%8E%A6%E9%97%A8%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA">https://zh.wikipedia.org/wiki/%E5%8E%A6%E9%97%A8%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA</a></li><li><a href="https://xm.cnr.cn/jdt/20260105/t20260105_527483388.shtml（地鐵 3 號線機場段/4 號線）">https://xm.cnr.cn/jdt/20260105/t20260105_527483388.shtml（地鐵 3 號線機場段/4 號線）</a></li><li><a href="https://www.xmtv.cn/xmtv/2026-09-01/7132de37d77f6f85.html">https://www.xmtv.cn/xmtv/2026-09-01/7132de37d77f6f85.html</a></li><li><a href="https://trains.ctrip.com/trainbooking/xiamen-quanzhou2/dongche（廈門→泉州車次票價）">https://trains.ctrip.com/trainbooking/xiamen-quanzhou2/dongche（廈門→泉州車次票價）</a></li><li><a href="https://www.12306.cn/mormhweb/zxdt/201812/t20181226_20450.html（台胞證線上核驗）">https://www.12306.cn/mormhweb/zxdt/201812/t20181226_20450.html（台胞證線上核驗）</a></li><li><a href="https://kyfw.12306.cn/otn/gonggao/realNameTicket.html">https://kyfw.12306.cn/otn/gonggao/realNameTicket.html</a></li><li><a href="http://www.jichangbus.com/gaoqi/daba1179（空港快線北站專線）">http://www.jichangbus.com/gaoqi/daba1179（空港快線北站專線）</a></li><li><a href="https://www.gwytb.gov.cn/xwdt/xwfb/wyly/202511/t20251105_12732704.htm（一次有效台胞證口岸）">https://www.gwytb.gov.cn/xwdt/xwfb/wyly/202511/t20251105_12732704.htm（一次有效台胞證口岸）</a></li><li><a href="https://www.shanwei.gov.cn/gdsw110/hdhd/zcjd/content/post_5882.html（取消簽注）">https://www.shanwei.gov.cn/gdsw110/hdhd/zcjd/content/post_5882.html（取消簽注）</a></li><li><a href="https://www.gov.cn/xinwen/jdzc/202403/content_6935621.htm（外卡限額）">https://www.gov.cn/xinwen/jdzc/202403/content_6935621.htm（外卡限額）</a></li><li><a href="https://www.mpaypass.com.cn/news/202403/04093527.html（200 元以下免手續費）">https://www.mpaypass.com.cn/news/202403/04093527.html（200 元以下免手續費）</a></li><li><a href="https://ww2.money-link.com.tw/RealtimeNews/NewsContent.aspx?PU=0010&amp;SN=5803063001（退稅門檻 200 元適用台胞）">https://ww2.money-link.com.tw/RealtimeNews/NewsContent.aspx?PU=0010&amp;SN=5803063001（退稅門檻 200 元適用台胞）</a></li><li><a href="https://www.fujian.gov.cn/xwdt/mszx/202603/t20260329_7116693.htm">https://www.fujian.gov.cn/xwdt/mszx/202603/t20260329_7116693.htm</a></li><li><a href="https://www.xmferry.com/wybm/wshlk/wlgpp/index.htm">https://www.xmferry.com/wybm/wshlk/wlgpp/index.htm</a></li><li><a href="https://m.xm.bendibao.com/tour/97695.shtm（廈大預約）">https://m.xm.bendibao.com/tour/97695.shtm（廈大預約）</a></li><li><a href="https://ihg.com/crowneplaza/hotels/tw/zh/quanzhou/jjnrq/hoteldetail">https://ihg.com/crowneplaza/hotels/tw/zh/quanzhou/jjnrq/hoteldetail</a></li><li><a href="https://www.tianqi.com/qiwen/city-xiamen-12">https://www.tianqi.com/qiwen/city-xiamen-12</a></li><li><a href="https://www.mandarin-airlines.com/（2026 行憲紀念日假期）">https://www.mandarin-airlines.com/（2026 行憲紀念日假期）</a></li><li><a href="https://news.china.com/socialgd/10000169/20261007/49780253.html（2027 元旦預估，非官方）">https://news.china.com/socialgd/10000169/20261007/49780253.html（2027 元旦預估，非官方）</a></li></ul>
+</section></main></body></html>

@@ -1,0 +1,157 @@
+{
+ "tianhougong": {
+  "src": "images/tianhougong.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:泉州天后宫大殿.jpg",
+  "title": "泉州天后宫大殿.jpg"
+ },
+ "dejimen_plaque": {
+  "src": "images/dejimen_plaque.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:20230129_Remains_of_Deji_Gate_01.jpg",
+  "title": "20230129 Remains of Deji Gate 01.jpg"
+ },
+ "dejimen_ruins": {
+  "src": "images/dejimen_ruins.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Dejimen_Yizhi_20120229-1.jpg",
+  "title": "Quanzhou Dejimen Yizhi 20120229-1.jpg"
+ },
+ "shunjiqiao": {
+  "src": "images/shunjiqiao.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:顺济桥.jpg",
+  "title": "顺济桥.jpg"
+ },
+ "mianxianhu": {
+  "src": "images/mianxianhu.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mī-suànn-kôo_in_Quanzhou_(20200929220207).jpg",
+  "title": "Mī-suànn-kôo in Quanzhou (20200929220207).jpg"
+ },
+ "kaiyuan_pagoda": {
+  "src": "images/kaiyuan_pagoda.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Zhenguo_Pagoda_of_Kaiyuan_Temple_(Quanzhou)_20170727.jpg",
+  "title": "Zhenguo Pagoda of Kaiyuan Temple (Quanzhou) 20170727.jpg"
+ },
+ "kaiyuan_hall": {
+  "src": "images/kaiyuan_hall.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Kaiyuan_Temple_-_大雄宝殿_20170727.jpg",
+  "title": "Quanzhou Kaiyuan Temple - 大雄宝殿 20170727.jpg"
+ },
+ "xijie_lane": {
+  "src": "images/xijie_lane.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:泉州西街_台魁巷_tai_kui_xiang_-_panoramio.jpg",
+  "title": "泉州西街 台魁巷 tai kui xiang - panoramio.jpg"
+ },
+ "xijie_view": {
+  "src": "images/xijie_view.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Xi_Jie_(West_Street),_Quanzhou_Aug_2023.jpg",
+  "title": "Xi Jie (West Street), Quanzhou Aug 2023.jpg"
+ },
+ "clock_tower": {
+  "src": "images/clock_tower.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Clock_Tower.jpg",
+  "title": "Quanzhou Clock Tower.jpg"
+ },
+ "wenmiao": {
+  "src": "images/wenmiao.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Confucian_Temple_Dacheng_Hall_2019_(2).jpg",
+  "title": "Quanzhou Confucian Temple Dacheng Hall 2019 (2).jpg"
+ },
+ "chengtiansi_gate": {
+  "src": "images/chengtiansi_gate.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Chengtian_Si_20120301-03.jpg",
+  "title": "Quanzhou Chengtian Si 20120301-03.jpg"
+ },
+ "chengtiansi_stele": {
+  "src": "images/chengtiansi_stele.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou_Chengtian_Si_20120301-02.jpg",
+  "title": "Quanzhou Chengtian Si 20120301-02.jpg"
+ },
+ "jiangmuya": {
+  "src": "images/jiangmuya.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Quanzhou-style_Kiuⁿ-bó-ah_(Ginger_Duck)_at_Yipin_Xiangqing_Restaurant,_Beijing_(20240908174515).jpg",
+  "title": "Quanzhou-style Kiuⁿ-bó-ah (Ginger Duck) at Yipin Xiangqing Restaurant, Beijing (20240908174515).jpg"
+ },
+ "shimao_towers": {
+  "src": "images/shimao_towers.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Xiamen_Shimao_Straits_Tower_at_dusk.jpg",
+  "title": "Xiamen Shimao Straits Tower at dusk.jpg"
+ },
+ "shapowei_boats": {
+  "src": "images/shapowei_boats.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Fishing_boats_in_Shapowei,_Xiamen.jpg",
+  "title": "Fishing boats in Shapowei, Xiamen.jpg"
+ },
+ "shapowei_harbour": {
+  "src": "images/shapowei_harbour.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:2015年的沙坡尾避风坞.jpg",
+  "title": "2015年的沙坡尾避风坞.jpg"
+ },
+ "yanwu_sunset": {
+  "src": "images/yanwu_sunset.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:演武大桥日落_-_Sunset_at_Yanwu_Bridge_-_2014.01_-_panoramio.jpg",
+  "title": "演武大桥日落 - Sunset at Yanwu Bridge - 2014.01 - panoramio.jpg"
+ },
+ "shachamian": {
+  "src": "images/shachamian.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:20230131_Seafood_Shacha_Noodle.jpg",
+  "title": "20230131 Seafood Shacha Noodle.jpg"
+ },
+ "tusundong": {
+  "src": "images/tusundong.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Tusundong_Xiamen.jpg",
+  "title": "Tusundong Xiamen.jpg"
+ },
+ "datong_road": {
+  "src": "images/datong_road.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:厦门·大同路_(14008542249).jpg",
+  "title": "厦门·大同路 (14008542249).jpg"
+ },
+ "arcade_houses": {
+  "src": "images/arcade_houses.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:大同路181618.jpg",
+  "title": "大同路181618.jpg"
+ },
+ "oyster_omelette": {
+  "src": "images/oyster_omelette.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Oyster_omelette.jpg",
+  "title": "Oyster omelette.jpg"
+ },
+ "huangzehe": {
+  "src": "images/huangzehe.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Huang_Zehe_peanut_soup.jpg",
+  "title": "Huang Zehe peanut soup.jpg"
+ },
+ "gulangyu_ferry": {
+  "src": "images/gulangyu_ferry.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Gulangyu_-_Neicuo'ao_-_DSCF9331.JPG",
+  "title": "Gulangyu - Neicuo'ao - DSCF9331.JPG"
+ },
+ "zhongdegong": {
+  "src": "images/zhongdegong.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:鼓浪屿种德宫.jpg",
+  "title": "鼓浪屿种德宫.jpg"
+ },
+ "shacha_shop": {
+  "src": "images/shacha_shop.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Sili_Shacha_Noodle.jpg",
+  "title": "Sili Shacha Noodle.jpg"
+ },
+ "nanputuo": {
+  "src": "images/nanputuo.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Nanputuo_Temple,_Xiamen.jpg",
+  "title": "Nanputuo Temple, Xiamen.jpg"
+ },
+ "xmu_jiannan": {
+  "src": "images/xmu_jiannan.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Jiannan_Auditorium_of_XMU.JPG",
+  "title": "Jiannan Auditorium of XMU.JPG"
+ },
+ "xmu_furong": {
+  "src": "images/xmu_furong.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Xiamen_University_07076-Xiamen_(48814339602).jpg",
+  "title": "Xiamen University 07076-Xiamen (48814339602).jpg"
+ },
+ "runbing": {
+  "src": "images/runbing.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:LunBhia.jpg",
+  "title": "LunBhia.jpg"
+ }
+}
