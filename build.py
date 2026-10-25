@@ -475,6 +475,7 @@ nav a,nav button{white-space:nowrap}
 .cap.lnk{border-color:var(--brick);color:var(--brick);text-decoration:none}
 .dl{background:var(--brick);color:#fff;border:none}
 .hidden{display:none!important}
+.card,.sec,.day{scroll-margin-top:64px}
 """
 PRINT_CSS = r"""
 @page{size:A4 portrait;margin:12mm 10mm}
